@@ -29,17 +29,17 @@ function bingWebSearch(query, options, key) {
     request.setRequestHeader("Accept", "application/json");
 
     // event handler for successful response
-    request.addEventListener("load", handleOnLoad);
+    //request.addEventListener("load", handleOnLoad);
 
     // event handler for erorrs
-    request.addEventListener("error", function() {
-        renderErrorMessage("Error completing request");
-    });
+    //request.addEventListener("error", function() {
+    //    renderErrorMessage("Error completing request");
+    //});
 
     // event handler for aborted request
-    request.addEventListener("abort", function() {
-        renderErrorMessage("Request aborted");
-    });
+    //request.addEventListener("abort", function() {
+    //    renderErrorMessage("Request aborted");
+    //});
 
     // send the request
     request.send();
