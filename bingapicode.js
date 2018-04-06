@@ -66,7 +66,6 @@ function searchBing() {
 }
 
 function handleOnLoad() {
-    hideDivs("noresults");
 
     var json = this.responseText.trim();
     var jsobj = {};
