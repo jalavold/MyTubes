@@ -27,8 +27,6 @@ function bingWebSearch(query, options, key) {
     // add request headers
     request.setRequestHeader("Ocp-Apim-Subscription-Key", key);
     request.setRequestHeader("Accept", "application/json");
-    var clientid = retrieveValue(CLIENT_ID_COOKIE);
-    if (clientid) request.setRequestHeader("X-MSEdge-ClientID", clientid);
 
     // event handler for successful response
     request.addEventListener("load", handleOnLoad);
