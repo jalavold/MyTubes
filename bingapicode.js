@@ -11,7 +11,7 @@ function bingWebSearch(query, options, key) {
 
 
 
-    var endpoint = "https://api.cognitive.microsoft.com/bing/v7.0/videos";
+    var endpoint = "https://api.cognitive.microsoft.com/bing/v7.0/videos/search";
     var request = new XMLHttpRequest();
     var queryurl = endpoint + "?q=" + encodeURIComponent(query) + "&" + options;
 
