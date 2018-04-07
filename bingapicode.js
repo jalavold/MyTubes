@@ -80,6 +80,14 @@ function handleOnLoad() {
 
     // show raw JSON and headers
     document.getElementById("jsondump").innerHTML = formatwithpre(JSON.stringify(jsobj, null, 2));
+    var videohtml = [];
+    for (video in jsobj.value){
+        
+        videohtml.push("video.embedHtml");
+        videohtml.push("<br />");
+    }
+    var videohtmlstring = videohtml.join("<br />");
+    document.getElementById("videohtmlstring").innerHTML = videohtmlstring;
 }
 
 
