@@ -83,7 +83,7 @@ function handleOnLoad() {
     var videohtml = [];
     for (video in jsobj.value){
         
-        videohtml.push("jsobj.value[video].embedHtml");
+        videohtml.push(jsobj.value[video].embedHtml);
         videohtml.push("<br />");
     }
     var videohtmlstring = videohtml.join("<br />");
