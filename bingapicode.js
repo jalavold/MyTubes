@@ -62,7 +62,7 @@ function bingSearchOptions(form) {
 
 // perform a related search (used by related search links)
 function searchBing() {
-    var query = "site:youtube.com " + document.getElementById("query").value;
+    var query = "site:youtube.com '" + document.getElementById("query").value + "'";
     return bingWebSearch(query, bingSearchOptions(), key);
 }
 
