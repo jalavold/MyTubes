@@ -87,8 +87,8 @@ function handleOnLoad() {
         var iframe = document.createElement("iframe");
         iframe.src = jsobj.value[video].contentUrl.replace("watch?v=","embed/");
         iframe.frameBorder = 0;
-        iframe.height = "480px";
-        iframe.width = "680px";
+        iframe.height = "360px";
+        iframe.width = "640px";
         iframe.setAttribute("allow","autoplay");
         iframe.setAttribute("allowFullScreen","");
         document.getElementById("codeway").appendChild(iframe);
