@@ -56,6 +56,7 @@ function bingSearchOptions(form) {
     options.push("count=10");
     options.push("textDecorations=true");
     options.push("textFormat=HTML");
+    options.push("qft=+filterui:msite-youtube.com");
     return options.join("&");
 }
 
@@ -79,7 +80,7 @@ function handleOnLoad() {
     }
 
     var brelem = document.createElement("br");
-    
+
     // show raw JSON and headers
     //document.getElementById("jsondump").innerHTML = formatwithpre(JSON.stringify(jsobj, null, 2));
     for (video in jsobj.value){
