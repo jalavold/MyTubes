@@ -87,7 +87,7 @@ function handleOnLoad() {
         videohtml.push("<br />");
     }
     var videohtmlstring = videohtml.join("<br />");
-    document.getElementById("videos").innerHTML = videohtmlstring;
+    document.getElementById("videos").innerText = videohtmlstring;
 }
 
 
