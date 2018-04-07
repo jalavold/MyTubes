@@ -93,9 +93,7 @@ function handleOnLoad() {
         iframe.setAttribute("allowFullScreen","");
         document.getElementById("codeway").appendChild(iframe);
         document.getElementById("codeway").appendChild(brelem);
-
     }
-
 }
 
 
@@ -106,7 +104,6 @@ function escapeQuotes(text) {
 
 // get the host portion of a URL, strpping out search result formatting and www too
 function getHost(url) {
-
     return url.replace(/<\/?b>/g, "").replace(/^https?:\/\//, "").split("/")[0].replace(/^www\./, "");
 }
 
