@@ -85,9 +85,9 @@ function handleOnLoad() {
 
         var iframe = document.createElement("iframe");
         iframe.src = jsobj.value[video].contentUrl.replace("watch?v=","embed/");
-        iframe.allowFullscreen = true;
         iframe.frameBorder = 0;
-        iframe.setAttribute("allow","autoplay")
+        iframe.setAttribute("allow","autoplay");
+        iframe.setAttribute("allowFullScreen","");
         document.getElementById("codeway").appendChild(iframe);
 
     }
