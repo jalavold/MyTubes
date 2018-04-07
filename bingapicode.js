@@ -56,14 +56,13 @@ function bingSearchOptions(form) {
     options.push("count=10");
     options.push("textDecorations=true");
     options.push("textFormat=HTML");
-    options.push("site=youtube.com");
     return options.join("&");
 }
 
 
 // perform a related search (used by related search links)
 function searchBing() {
-    var query = document.getElementById("query").value;
+    var query = "site:youtube.com " + document.getElementById("query").value;
     return bingWebSearch(query, bingSearchOptions(), key);
 }
 
