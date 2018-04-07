@@ -32,18 +32,8 @@
             top:20px;
         }
         
-        /* 3em(48px) @ 120em(1920px) increasing to 2em(32px) @ 30em(480px) */
-        @media (min-width: 120em) {
-        :root input button {
-            font-size: calc(3rem + ((1vw - 1.2em) * 1.1111));
-            /* Where: * 1.1111 = 100 * font_Size_Difference / viewport_Width_Difference */
-            }
-        }
-        /* Prevent font scaling beyond this breakpoint */
-        @media (min-width: 30em) {
-        :root input button{
-            font-size: 2em;
-            }
+        html {
+            font-size: 10%;
         }
 
     </style>
