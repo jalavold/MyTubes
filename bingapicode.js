@@ -86,7 +86,7 @@ function handleOnLoad() {
         videohtml.push(jsobj.value[video].embedHtml);
         videohtml.push("<br />");
         var iframe = document.createElement("iframe");
-        iframe.src = jsobj.value[video].contentURL.replace("watch?v=","embed/");
+        iframe.src = jsobj.value[video].contentUrl.replace("watch?v=","embed/");
         document.getElementById("codeway").appendChild(iframe);
 
     }
