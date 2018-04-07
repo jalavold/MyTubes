@@ -85,9 +85,14 @@ function handleOnLoad() {
         
         videohtml.push(jsobj.value[video].embedHtml);
         videohtml.push("<br />");
+        var iframe = document.createElement("iframe");
+        iframe.src = jsobj.value[video].contentURL.replace("watch?v=","embed/");
+        document.getElementById("codeway").appendChild(iframe);
+
     }
     var videohtmlstring = videohtml.join("<br />");
-    document.getElementById("videos").innerText = videohtmlstring;
+    
+    document.getElementById("videos").innerHTML = videohtmlstring;
 }
 
 
@@ -98,6 +103,7 @@ function escapeQuotes(text) {
 
 // get the host portion of a URL, strpping out search result formatting and www too
 function getHost(url) {
+
     return url.replace(/<\/?b>/g, "").replace(/^https?:\/\//, "").split("/")[0].replace(/^www\./, "");
 }
 
