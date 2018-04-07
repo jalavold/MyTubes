@@ -56,7 +56,7 @@ function bingSearchOptions(form) {
     options.push("count=10");
     options.push("textDecorations=true");
     options.push("textFormat=HTML");
-    options.push("qft=+filterui:msite-youtube.com");
+    options.push("site=youtube.com");
     return options.join("&");
 }
 
