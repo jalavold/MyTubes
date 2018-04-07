@@ -78,6 +78,8 @@ function handleOnLoad() {
         renderErrorMessage("Invalid JSON response");
     }
 
+    var brelem = document.createElement("br");
+    
     // show raw JSON and headers
     //document.getElementById("jsondump").innerHTML = formatwithpre(JSON.stringify(jsobj, null, 2));
     for (video in jsobj.value){
