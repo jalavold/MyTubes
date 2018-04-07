@@ -32,14 +32,20 @@
             top:20px;
         }
         
-        /* 1em @ 48em (768px) increasing to 2em @ 120em (1920px) */
-        @media (min-width: 48rem) {
+        /* 3em(48px) @ 120em(1920px) increasing to 2em(32px) @ 30em(480px) */
+        @media (min-width: 120em) {
         :root {
-            font-size: calc(1rem + ((1vw - .48rem) * 1.389));
-            /* .48rem = viewportWidthMinimum /100 */
-            /* 1.389rem = 100 * fontSizeDifference / viewportWidthDifference */
+            font-size: calc(3rem + ((1vw - 1.2em) * 1.1111));
+            /* Where: * 1.1111 = 100 * font_Size_Difference / viewport_Width_Difference */
             }
         }
+        /* Prevent font scaling beyond this breakpoint */
+        @media (min-width: 30em) {
+        :root {
+            font-size: 2em;
+            }
+        }
+
     </style>
 </head>
 <body>
