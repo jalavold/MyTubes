@@ -91,6 +91,7 @@ function handleOnLoad() {
         iframe.setAttribute("allow","autoplay");
         iframe.setAttribute("allowFullScreen","");
         document.getElementById("codeway").appendChild(iframe);
+        document.document.getElementById("codeway").appendChild(brelem);
 
     }
 
