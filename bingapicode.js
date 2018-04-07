@@ -79,20 +79,16 @@ function handleOnLoad() {
     }
 
     // show raw JSON and headers
-    document.getElementById("jsondump").innerHTML = formatwithpre(JSON.stringify(jsobj, null, 2));
-    var videohtml = [];
+    //document.getElementById("jsondump").innerHTML = formatwithpre(JSON.stringify(jsobj, null, 2));
     for (video in jsobj.value){
         
-        videohtml.push(jsobj.value[video].embedHtml);
-        videohtml.push("<br />");
+
         var iframe = document.createElement("iframe");
         iframe.src = jsobj.value[video].contentUrl.replace("watch?v=","embed/");
         document.getElementById("codeway").appendChild(iframe);
 
     }
-    var videohtmlstring = videohtml.join("<br />");
-    
-    document.getElementById("videos").innerHTML = videohtmlstring;
+
 }
 
 
