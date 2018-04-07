@@ -43,7 +43,7 @@
         input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
             -webkit-appearance: none; -moz-appearance: none;
             display: block;
-            margin: 0;
+            margin: 1em 0 0 0;
             width: 100%; height: 50px;
             line-height: 50px; font-size: 30pt;
             border: 1px solid #bbb;
@@ -64,12 +64,13 @@
     </style>
 </head>
 <body>
-    <h1>MyTubes Mobile</h1>
+    
     <!-- <iframe width="90%" src="https://www.youtube.com/embed/mOO5qRjVFLw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
     </iframe> -->
-    
-    <div class="hamburger-menu"></div>
-    <br><br>
+    <div id="banner">
+        <div class="hamburger-menu"></div>
+        <h1>MyTubes Mobile</h1>
+    </div>
     <input id="query" type="text">
     <button type="button" onclick="searchBing()">Query</button>
     <div id="codeway"></div>
