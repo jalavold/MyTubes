@@ -51,6 +51,7 @@ function bingWebSearch(query, options, key) {
 function bingSearchOptions(form) {
 
     var options = [];
+    options.push("pricing=free")
     options.push("SafeSearch=strict");
     options.push("count=10");
     options.push("textDecorations=true");

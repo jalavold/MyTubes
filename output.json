@@ -1,0 +1,1065 @@
+{
+  "_type": "Videos",
+  "instrumentation": {
+    "_type": "ResponseInstrumentation"
+  },
+  "readLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=cats",
+  "webSearchUrl": "https://www.bing.com/videos/search?q=cats",
+  "totalEstimatedMatches": 1000,
+  "value": [
+    {
+      "webSearchUrl": "https://www.bing.com/videos/search?q=cats&view=detail&mid=F34FEF3963FC7A4F5B0BF34FEF3963FC7A4F5B0B",
+      "name": "Are ORANGE <b>CATS</b> the FUNNIEST <b>CATS</b>? - Super FUNNY COMPILATION that will make you DIE LAUGHING",
+      "description": "Cats are so cute and super funny animals, especially orange cats! They make us laugh all the time and heal our bad mood! This funny cat compilation is the hardest TRY ...",
+      "thumbnailUrl": "https://tse4.mm.bing.net/th?id=OVP.V5EOBVFcVJeXvG5HgT1DWQEsDg&pid=Api",
+      "datePublished": "2018-03-07T10:10:35.0000000",
+      "publisher": [
+        {
+          "name": "YouTube"
+        }
+      ],
+      "creator": {
+        "name": "Tiger Productions"
+      },
+      "isAccessibleForFree": true,
+      "contentUrl": "https://www.youtube.com/watch?v=i-AXImNxCAE",
+      "hostPageUrl": "https://www.youtube.com/watch?v=i-AXImNxCAE",
+      "encodingFormat": "h264",
+      "hostPageDisplayUrl": "https://www.youtube.com/watch?v=i-AXImNxCAE",
+      "width": 480,
+      "height": 360,
+      "duration": "PT10M10S",
+      "motionThumbnailUrl": "https://tse2.mm.bing.net/th?id=OM.C1tPevxjOe9P8w_1521183741&pid=Api",
+      "embedHtml": "&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/i-AXImNxCAE?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;",
+      "allowHttpsEmbed": true,
+      "viewCount": 1323491,
+      "thumbnail": {
+        "width": 300,
+        "height": 224
+      },
+      "videoId": "F34FEF3963FC7A4F5B0BF34FEF3963FC7A4F5B0B",
+      "allowMobileEmbed": true,
+      "isSuperfresh": false
+    },
+    {
+      "webSearchUrl": "https://www.bing.com/videos/search?q=cats&view=detail&mid=F515BC1C7F76EC107A49F515BC1C7F76EC107A49",
+      "name": "<b>CATS</b> will make you LAUGH YOUR HEAD OFF - Funny CAT compilation",
+      "description": "Cats are amazing creatures because they make us laugh all the time! Watching funny cats is the hardest try not to laugh challenge! Just look how all these cats ...",
+      "thumbnailUrl": "https://tse3.mm.bing.net/th?id=OVP.RK6kau72vXfNQH2I6R6JYwEsCo&pid=Api",
+      "datePublished": "2017-05-30T17:07:24.0000000",
+      "publisher": [
+        {
+          "name": "YouTube"
+        }
+      ],
+      "creator": {
+        "name": "Tiger FunnyWorks"
+      },
+      "isAccessibleForFree": true,
+      "contentUrl": "https://www.youtube.com/watch?v=hY7m5jjJ9mM",
+      "hostPageUrl": "https://www.youtube.com/watch?v=hY7m5jjJ9mM",
+      "encodingFormat": "h264",
+      "hostPageDisplayUrl": "https://www.youtube.com/watch?v=hY7m5jjJ9mM",
+      "width": 480,
+      "height": 360,
+      "duration": "PT10M2S",
+      "motionThumbnailUrl": "https://tse2.mm.bing.net/th?id=OM.SXoQ7HZ%2fHLwV9Q_1521739770&pid=Api",
+      "embedHtml": "&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/hY7m5jjJ9mM?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;",
+      "allowHttpsEmbed": true,
+      "viewCount": 63847466,
+      "thumbnail": {
+        "width": 300,
+        "height": 168
+      },
+      "videoId": "F515BC1C7F76EC107A49F515BC1C7F76EC107A49",
+      "allowMobileEmbed": true,
+      "isSuperfresh": false
+    },
+    {
+      "webSearchUrl": "https://www.bing.com/videos/search?q=cats&view=detail&mid=D1D517C9DBAE97D8F956D1D517C9DBAE97D8F956",
+      "name": "Try Not To Laugh Challenge - Funny Cat &amp; Dog Vines compilation 2017",
+      "description": "Try Not To Laugh or Grin While Watching Funny Dogs &amp; Cats Vines compilation 2017 IMPOSSIBLE CHALLENGE! Subscribe to CooL Vines http://goo.gl/AO95W6",
+      "thumbnailUrl": "https://tse1.mm.bing.net/th?id=OVP.CIX9XNcfxq6EQjsaasCi3wEsCo&pid=Api",
+      "datePublished": "2017-11-18T19:06:48.0000000",
+      "publisher": [
+        {
+          "name": "YouTube"
+        }
+      ],
+      "creator": {
+        "name": "CooL Vines"
+      },
+      "isAccessibleForFree": true,
+      "contentUrl": "https://www.youtube.com/watch?v=EtH9Yllzjcc",
+      "hostPageUrl": "https://www.youtube.com/watch?v=EtH9Yllzjcc",
+      "encodingFormat": "h264",
+      "hostPageDisplayUrl": "https://www.youtube.com/watch?v=EtH9Yllzjcc",
+      "width": 1280,
+      "height": 720,
+      "duration": "PT10M44S",
+      "motionThumbnailUrl": "https://tse3.mm.bing.net/th?id=OM.VvnYl67byRfV0Q_1522088232&pid=Api",
+      "embedHtml": "&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/EtH9Yllzjcc?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;",
+      "allowHttpsEmbed": true,
+      "viewCount": 48934348,
+      "thumbnail": {
+        "width": 300,
+        "height": 168
+      },
+      "videoId": "D1D517C9DBAE97D8F956D1D517C9DBAE97D8F956",
+      "allowMobileEmbed": true,
+      "isSuperfresh": false
+    },
+    {
+      "webSearchUrl": "https://www.bing.com/videos/search?q=cats&view=detail&mid=E40D347038FC66541E18E40D347038FC66541E18",
+      "name": "Funny CAT FAILS that will make you POOP YOUR PANTS FROM LAUGHING - Best CAT compilation",
+      "description": "Just look how all these cats &amp; kittens play, fail, get along with dogs and other animals, get scared, make funny sounds, get angry,... So ridiculous, funny and cute ...",
+      "thumbnailUrl": "https://tse1.mm.bing.net/th?id=OVP.eDQ_O08ASpyul-8EW5yiZwEsDh&pid=Api",
+      "datePublished": "2017-10-27T10:51:57.0000000",
+      "publisher": [
+        {
+          "name": "YouTube"
+        }
+      ],
+      "creator": {
+        "name": "Tiger Productions"
+      },
+      "isAccessibleForFree": true,
+      "contentUrl": "https://www.youtube.com/watch?v=kRqalSP92qI",
+      "hostPageUrl": "https://www.youtube.com/watch?v=kRqalSP92qI",
+      "encodingFormat": "h264",
+      "hostPageDisplayUrl": "https://www.youtube.com/watch?v=kRqalSP92qI",
+      "width": 480,
+      "height": 360,
+      "duration": "PT10M21S",
+      "motionThumbnailUrl": "https://tse2.mm.bing.net/th?id=OM.GB5UZvw4cDQN5A_1522318996&pid=Api",
+      "embedHtml": "&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/kRqalSP92qI?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;",
+      "allowHttpsEmbed": true,
+      "viewCount": 1324039,
+      "thumbnail": {
+        "width": 300,
+        "height": 225
+      },
+      "videoId": "E40D347038FC66541E18E40D347038FC66541E18",
+      "allowMobileEmbed": true,
+      "isSuperfresh": false
+    },
+    {
+      "webSearchUrl": "https://www.bing.com/videos/search?q=cats&view=detail&mid=4F1C7922026607596BEC4F1C7922026607596BEC",
+      "name": "NINJA <b>CATS</b>! There&#39;s absolutely NOTHING MORE FUNNY! - Impossible TRY NOT TO LAUGH compilation",
+      "description": "Ninja cats are the funniest cats! Watch this funny cat compilation and you will laugh like hell! The most impossible cat try not to laugh challenge ever! Just look ...",
+      "thumbnailUrl": "https://tse4.mm.bing.net/th?id=OVP.6BpLcs3sg1YqbVemlovkCQEsDh&pid=Api",
+      "datePublished": "2018-01-05T18:25:58.0000000",
+      "publisher": [
+        {
+          "name": "YouTube"
+        }
+      ],
+      "creator": {
+        "name": "Tiger Productions"
+      },
+      "isAccessibleForFree": true,
+      "contentUrl": "https://www.youtube.com/watch?v=opYts0nFOvs",
+      "hostPageUrl": "https://www.youtube.com/watch?v=opYts0nFOvs",
+      "encodingFormat": "h264",
+      "hostPageDisplayUrl": "https://www.youtube.com/watch?v=opYts0nFOvs",
+      "width": 480,
+      "height": 360,
+      "duration": "PT11M28S",
+      "motionThumbnailUrl": "https://tse1.mm.bing.net/th?id=OM.7GtZB2YCInkcTw_1521601025&pid=Api",
+      "embedHtml": "&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/opYts0nFOvs?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;",
+      "allowHttpsEmbed": true,
+      "viewCount": 1728720,
+      "thumbnail": {
+        "width": 300,
+        "height": 225
+      },
+      "videoId": "4F1C7922026607596BEC4F1C7922026607596BEC",
+      "allowMobileEmbed": true,
+      "isSuperfresh": false
+    },
+    {
+      "webSearchUrl": "https://www.bing.com/videos/search?q=cats&view=detail&mid=111AB9428E9AC0441E4E111AB9428E9AC0441E4E",
+      "name": "You will LAUGH SO HARD that YOU WILL FAINT - FUNNY CAT compilation",
+      "description": "Well well well, cats for you again. But this time, even better, even funnier, even more hilarious! We know you like these furries the most, so that&#39;s why we keep ...",
+      "thumbnailUrl": "https://tse2.mm.bing.net/th?id=OVP.vVCGli0IowhNcAq4AjJ92QEsCo&pid=Api",
+      "datePublished": "2017-10-06T18:08:57.0000000",
+      "publisher": [
+        {
+          "name": "YouTube"
+        }
+      ],
+      "creator": {
+        "name": "Tiger FunnyWorks"
+      },
+      "isAccessibleForFree": true,
+      "contentUrl": "https://www.youtube.com/watch?v=WEkSYw3o5is",
+      "hostPageUrl": "https://www.youtube.com/watch?v=WEkSYw3o5is",
+      "encodingFormat": "h264",
+      "hostPageDisplayUrl": "https://www.youtube.com/watch?v=WEkSYw3o5is",
+      "width": 480,
+      "height": 360,
+      "duration": "PT10M2S",
+      "motionThumbnailUrl": "https://tse4.mm.bing.net/th?id=OM.Th5EwJqOQrkaEQ_1521665460&pid=Api",
+      "embedHtml": "&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/WEkSYw3o5is?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;",
+      "allowHttpsEmbed": true,
+      "viewCount": 17014383,
+      "thumbnail": {
+        "width": 300,
+        "height": 168
+      },
+      "videoId": "111AB9428E9AC0441E4E111AB9428E9AC0441E4E",
+      "allowMobileEmbed": true,
+      "isSuperfresh": false
+    },
+    {
+      "webSearchUrl": "https://www.bing.com/videos/search?q=cats&view=detail&mid=D5FFF3DBAB53418514F1D5FFF3DBAB53418514F1",
+      "name": "BIG <b>CATS</b>, SMALL <b>CATS</b>, it doesn&#39;t matter, they are ALL FUNNY! - GET READY to LAUGH!",
+      "description": "Big cats, small cats, it doesn&#39;t matter, all cats are super cute and funny! This cat compilation is the hardest TRY NOT TO LAUGH challenge ever! Just look how all ...",
+      "thumbnailUrl": "https://tse4.mm.bing.net/th?id=OVP.8awA3buhI9uKqL1_SosyYgEsDh&pid=Api",
+      "datePublished": "2018-02-16T14:43:35.0000000",
+      "publisher": [
+        {
+          "name": "YouTube"
+        }
+      ],
+      "creator": {
+        "name": "Tiger Productions"
+      },
+      "isAccessibleForFree": true,
+      "contentUrl": "https://www.youtube.com/watch?v=3vDV1F_fngc",
+      "hostPageUrl": "https://www.youtube.com/watch?v=3vDV1F_fngc",
+      "encodingFormat": "h264",
+      "hostPageDisplayUrl": "https://www.youtube.com/watch?v=3vDV1F_fngc",
+      "width": 480,
+      "height": 360,
+      "duration": "PT10M33S",
+      "motionThumbnailUrl": "https://tse1.mm.bing.net/th?id=OM.8RSFQVOr2%2fP%2f1Q_1519302575&pid=Api",
+      "embedHtml": "&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/3vDV1F_fngc?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;",
+      "allowHttpsEmbed": true,
+      "viewCount": 659180,
+      "thumbnail": {
+        "width": 300,
+        "height": 225
+      },
+      "videoId": "D5FFF3DBAB53418514F1D5FFF3DBAB53418514F1",
+      "allowMobileEmbed": true,
+      "isSuperfresh": false
+    },
+    {
+      "webSearchUrl": "https://www.bing.com/videos/search?q=cats&view=detail&mid=FDDBC0991A51E90BD864FDDBC0991A51E90BD864",
+      "name": "FUNNY <b>CATS</b> will make you FAIL THIS TRY NOT TO LAUGH challenge - Funny CAT videos",
+      "description": "The best and the funniest cat videos that will make you laugh so hard that you will poop your pants! The hardest try not to laugh challenge ever! Just look how all ...",
+      "thumbnailUrl": "https://tse1.mm.bing.net/th?id=OVP.ZKZcf2LLBIXbUHUlMl3OvQEsDh&pid=Api",
+      "datePublished": "2017-11-28T23:18:45.0000000",
+      "publisher": [
+        {
+          "name": "YouTube"
+        }
+      ],
+      "creator": {
+        "name": "Tiger Productions"
+      },
+      "isAccessibleForFree": true,
+      "contentUrl": "https://www.youtube.com/watch?v=WFvsbHzKE8o",
+      "hostPageUrl": "https://www.youtube.com/watch?v=WFvsbHzKE8o",
+      "encodingFormat": "h264",
+      "hostPageDisplayUrl": "https://www.youtube.com/watch?v=WFvsbHzKE8o",
+      "width": 480,
+      "height": 360,
+      "duration": "PT10M22S",
+      "motionThumbnailUrl": "https://tse2.mm.bing.net/th?id=OM.ZNgL6VEamcDb%2fQ_1517960750&pid=Api",
+      "embedHtml": "&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/WFvsbHzKE8o?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;",
+      "allowHttpsEmbed": true,
+      "viewCount": 639580,
+      "thumbnail": {
+        "width": 300,
+        "height": 225
+      },
+      "videoId": "FDDBC0991A51E90BD864FDDBC0991A51E90BD864",
+      "allowMobileEmbed": true,
+      "isSuperfresh": false
+    },
+    {
+      "webSearchUrl": "https://www.bing.com/videos/search?q=cats&view=detail&mid=3E92FF2E41E73A62EF3F3E92FF2E41E73A62EF3F",
+      "name": "HILARIOUS <b>CATS</b>, prepare yourself for ULTRA LAUGHTER! - Funny CAT VIDEOS compilation",
+      "description": "Cats are the funniest animals ever! They make us laugh all the time! This funny cats compilation is the hardest TRY NOT TO LAUGH challenge ever! Just look how all ...",
+      "thumbnailUrl": "https://tse3.mm.bing.net/th?id=OVP.BBVH246eR-bs2BRNC0p5BQJYFR&pid=Api",
+      "datePublished": "2018-02-22T17:01:36.0000000",
+      "publisher": [
+        {
+          "name": "YouTube"
+        }
+      ],
+      "creator": {
+        "name": "Tiger FunnyWorks"
+      },
+      "isAccessibleForFree": true,
+      "contentUrl": "https://www.youtube.com/watch?v=UnpKUZUcY4I",
+      "hostPageUrl": "https://www.youtube.com/watch?v=UnpKUZUcY4I",
+      "encodingFormat": "h264",
+      "hostPageDisplayUrl": "https://www.youtube.com/watch?v=UnpKUZUcY4I",
+      "width": 480,
+      "height": 360,
+      "duration": "PT10M2S",
+      "motionThumbnailUrl": "https://tse4.mm.bing.net/th?id=OM1.P%2b9iOudBLv%2bSPg&pid=Api",
+      "embedHtml": "&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/UnpKUZUcY4I?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;",
+      "allowHttpsEmbed": true,
+      "viewCount": 163262,
+      "thumbnail": {
+        "width": 600,
+        "height": 337
+      },
+      "videoId": "3E92FF2E41E73A62EF3F3E92FF2E41E73A62EF3F",
+      "allowMobileEmbed": true,
+      "isSuperfresh": false
+    },
+    {
+      "webSearchUrl": "https://www.bing.com/videos/search?q=cats&view=detail&mid=8F69F8A2899BA672578F8F69F8A2899BA672578F",
+      "name": "GET READY to DIE FROM LAUGHING! - FUNNY CAT VIDEOS, new and crazy!",
+      "description": "If you think you can win this try not to laugh challenge... think again! Cats are here to make you laugh so hard that you will pee your pants! Just look how all these ...",
+      "thumbnailUrl": "https://tse4.mm.bing.net/th?id=OVP.m_Su79Izf9pv7oD6Zr98jAEsCo&pid=Api",
+      "datePublished": "2018-02-12T19:30:27.0000000",
+      "publisher": [
+        {
+          "name": "YouTube"
+        }
+      ],
+      "creator": {
+        "name": "Tiger FunnyWorks"
+      },
+      "isAccessibleForFree": true,
+      "contentUrl": "https://www.youtube.com/watch?v=y_Fmli3M3m4",
+      "hostPageUrl": "https://www.youtube.com/watch?v=y_Fmli3M3m4",
+      "encodingFormat": "h264",
+      "hostPageDisplayUrl": "https://www.youtube.com/watch?v=y_Fmli3M3m4",
+      "width": 480,
+      "height": 360,
+      "duration": "PT10M2S",
+      "motionThumbnailUrl": "https://tse3.mm.bing.net/th?id=OM.j1dyppuJovhpjw_1519296393&pid=Api",
+      "embedHtml": "&lt;iframe width=&quot;1280&quot; height=&quot;720&quot; src=&quot;https://www.youtube.com/embed/y_Fmli3M3m4?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;",
+      "allowHttpsEmbed": true,
+      "viewCount": 117192,
+      "thumbnail": {
+        "width": 300,
+        "height": 168
+      },
+      "videoId": "8F69F8A2899BA672578F8F69F8A2899BA672578F",
+      "allowMobileEmbed": true,
+      "isSuperfresh": false
+    }
+  ],
+  "nextOffset": 12,
+  "queryExpansions": [
+    {
+      "text": "Cats Meowing",
+      "displayText": "Meowing",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cats+Meowing&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Meowing%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cats+Meowing&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Meowing%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cats+Meowing&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Funny Cat",
+      "displayText": "Funny",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Funny+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Funny%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Funny+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Funny%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Funny+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Dog vs Cat",
+      "displayText": "Dog vs",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Dog+vs+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Dog+vs%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Dog+vs+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Dog+vs%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Dog+vs+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Song",
+      "displayText": "Song",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Song&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Song%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Song&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Song%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Cat+Song&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Talking Cat",
+      "displayText": "Talking",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Talking+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Talking%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Talking+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Talking%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Talking+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cats the Musical",
+      "displayText": "The Musical",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cats+the+Musical&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22The+Musical%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cats+the+Musical&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22The+Musical%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Cats+the+Musical&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Grumpy Cat",
+      "displayText": "Grumpy",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Grumpy+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Grumpy%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Grumpy+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Grumpy%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Grumpy+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cute Cats",
+      "displayText": "Cute",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cute+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Cute%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cute+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Cute%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Cute+Cats&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cats Fighting",
+      "displayText": "Fighting",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cats+Fighting&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Fighting%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cats+Fighting&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Fighting%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Cats+Fighting&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Playing Piano",
+      "displayText": "Playing Piano",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Playing+Piano&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Playing+Piano%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Playing+Piano&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Playing+Piano%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cat+Playing+Piano&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Fails",
+      "displayText": "Fails",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Fails&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Fails%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Fails&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Fails%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cat+Fails&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Fat Cat",
+      "displayText": "Fat",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Fat+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Fat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Fat+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Fat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Fat+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Nyan Cat",
+      "displayText": "Nyan",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Nyan+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Nyan%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Nyan+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Nyan%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Nyan+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Black Cat",
+      "displayText": "Black",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Black+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Black%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Black+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Black%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Black+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Sounds",
+      "displayText": "Sounds",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Sounds&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Sounds%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Sounds&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Sounds%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Cat+Sounds&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Crazy Cats",
+      "displayText": "Crazy",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Crazy+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Crazy%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Crazy+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Crazy%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Crazy+Cats&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Compilation",
+      "displayText": "Compilation",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Compilation&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Compilation%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Compilation&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Compilation%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cat+Compilation&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Sam and Cat",
+      "displayText": "Sam and",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Sam+and+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Sam+and%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Sam+and+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Sam+and%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Sam+and+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Baby Cats",
+      "displayText": "Baby",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Baby+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Baby%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Baby+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Baby%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Baby+Cats&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Vines",
+      "displayText": "Vines",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Vines&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Vines%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Vines&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Vines%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Cat+Vines&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Singing Cats",
+      "displayText": "Singing",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Singing+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Singing%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Singing+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Singing%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Singing+Cats&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat in the Hat",
+      "displayText": "In the Hat",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+in+the+Hat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22In+the+Hat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+in+the+Hat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22In+the+Hat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cat+in+the+Hat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Siamese Cats",
+      "displayText": "Siamese",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Siamese+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Siamese%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Siamese+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Siamese%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Siamese+Cats&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Farting Cat",
+      "displayText": "Farting",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Farting+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Farting%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Farting+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Farting%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Farting+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Dancing Cats",
+      "displayText": "Dancing",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Dancing+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Dancing%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Dancing+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Dancing%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Dancing+Cats&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cats 101",
+      "displayText": "101",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cats+101&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22101%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cats+101&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22101%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cats+101&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Persian Cats",
+      "displayText": "Persian",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Persian+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Persian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Persian+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Persian%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Persian+Cats&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Angry Cat",
+      "displayText": "Angry",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Angry+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Angry%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Angry+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Angry%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Angry+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Keyboard Cat",
+      "displayText": "Keyboard",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Keyboard+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Keyboard%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Keyboard+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Keyboard%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Keyboard+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Hissing Cat",
+      "displayText": "Hissing",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Hissing+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Hissing%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Hissing+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Hissing%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Hissing+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Mad Cat",
+      "displayText": "Mad",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Mad+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Mad%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Mad+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Mad%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Mad+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Games",
+      "displayText": "Games",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Games&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Games%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Games&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Games%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Cat+Games&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Big Cats",
+      "displayText": "Big",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Big+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Big%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Big+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Big%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Big+Cats&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Star Wars Cats",
+      "displayText": "Star Wars",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Star+Wars+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Star+Wars%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Star+Wars+Cats&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Star+Wars%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Star+Wars+Cats&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat vs Snake",
+      "displayText": "Vs Snake",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+vs+Snake&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Vs+Snake%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+vs+Snake&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Vs+Snake%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Cat+vs+Snake&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Bengal Cat",
+      "displayText": "Bengal",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Bengal+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Bengal%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Bengal+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Bengal%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Bengal+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Noises",
+      "displayText": "Noises",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Noises&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Noises%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Noises&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Noises%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cat+Noises&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cartoon Cat",
+      "displayText": "Cartoon",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cartoon+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Cartoon%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cartoon+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Cartoon%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Cartoon+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cats Being Jerks",
+      "displayText": "Being Jerks",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cats+Being+Jerks&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Being+Jerks%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cats+Being+Jerks&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Being+Jerks%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cats+Being+Jerks&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Munchkin Cat",
+      "displayText": "Munchkin",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Munchkin+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Munchkin%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Munchkin+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Munchkin%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Munchkin+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    }
+  ],
+  "pivotSuggestions": [
+    {
+      "pivot": "cats",
+      "suggestions": [
+        {
+          "text": "Felidae",
+          "displayText": "Felidae",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Felidae&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Felidae%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Felidae&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Felidae%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Felidae&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "African Wildcat",
+          "displayText": "African Wildcat",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=African+Wildcat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22African+Wildcat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=African+Wildcat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22African+Wildcat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse3.mm.bing.net/th?q=African+Wildcat&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Kitten",
+          "displayText": "Kitten",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Kitten&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Kitten%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Kitten&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Kitten%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Kitten&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Feral Cat",
+          "displayText": "Feral Cat",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Feral+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Feral+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Feral+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Feral+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Feral+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Domestic Goat",
+          "displayText": "Domestic Goat",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Domestic+Goat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Domestic+Goat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Domestic+Goat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Domestic+Goat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Domestic+Goat&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Sand Cat",
+          "displayText": "Sand Cat",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Sand+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Sand+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Sand+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Sand+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Sand+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Common Raccoon",
+          "displayText": "Common Raccoon",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Common+Raccoon&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Common+Raccoon%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Common+Raccoon&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Common+Raccoon%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Common+Raccoon&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Tabby Cat",
+          "displayText": "Tabby Cat",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Tabby+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Tabby+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Tabby+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Tabby+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Tabby+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Maine Coon",
+          "displayText": "Maine Coon",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Maine+Coon&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Maine+Coon%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Maine+Coon&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Maine+Coon%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Maine+Coon&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Siamese Cat",
+          "displayText": "Siamese Cat",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Siamese+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Siamese+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Siamese+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Siamese+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Siamese+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Bengal Cat",
+          "displayText": "Bengal Cat",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Bengal+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Bengal+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Bengal+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Bengal+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Bengal+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Persian Cat",
+          "displayText": "Persian Cat",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Persian+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Persian+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Persian+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Persian+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Persian+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Savannah Cat",
+          "displayText": "Savannah Cat",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Savannah+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Savannah+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Savannah+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Savannah+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Savannah+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Norwegian Forest Cat",
+          "displayText": "Norwegian Forest Cat",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Norwegian+Forest+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Norwegian+Forest+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Norwegian+Forest+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Norwegian+Forest+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Norwegian+Forest+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Dog",
+          "displayText": "Dog",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Dog&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Dog%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Dog&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Dog%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Dog&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        },
+        {
+          "text": "Black Cat",
+          "displayText": "Black Cat",
+          "webSearchUrl": "https://www.bing.com/videos/search?q=Black+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Black+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d&FORM=VRQBPS",
+          "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Black+Cat&tq=%7b%22pq%22%3a%22cats%22%2c%22qs%22%3a%5b%7b%22cv%22%3a%22cats%22%2c%22pv%22%3a%22cats%22%2c%22hps%22%3atrue%2c%22iqp%22%3afalse%7d%2c%7b%22cv%22%3a%22Black+Cat%22%2c%22pv%22%3a%22%22%2c%22hps%22%3afalse%2c%22iqp%22%3atrue%7d%5d%7d",
+          "thumbnail": {
+            "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Black+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+          }
+        }
+      ]
+    }
+  ],
+  "relatedSearches": [
+    {
+      "text": "Cats Meowing",
+      "displayText": "Cats Meowing",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cats+Meowing&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cats+Meowing",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cats+Meowing&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Talking Cat",
+      "displayText": "Talking Cat",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Talking+Cat&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Talking+Cat",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Talking+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Stupid Cats",
+      "displayText": "Stupid Cats",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Stupid+Cats&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Stupid+Cats",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Stupid+Cats&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cats the Musical",
+      "displayText": "Cats the Musical",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cats+the+Musical&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cats+the+Musical",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Cats+the+Musical&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Farting Cat",
+      "displayText": "Farting Cat",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Farting+Cat&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Farting+Cat",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Farting+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cats and Dogs",
+      "displayText": "Cats and Dogs",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cats+and+Dogs&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cats+and+Dogs",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Cats+and+Dogs&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Compilation",
+      "displayText": "Cat Compilation",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Compilation&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Compilation",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cat+Compilation&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Song",
+      "displayText": "Cat Song",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Song&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Song",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Cat+Song&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Funny Cat Pictures",
+      "displayText": "Funny Cat Pictures",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Funny+Cat+Pictures&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Funny+Cat+Pictures",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Funny+Cat+Pictures&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "YouTube Cats Meowing",
+      "displayText": "YouTube Cats Meowing",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=YouTube+Cats+Meowing&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=YouTube+Cats+Meowing",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=YouTube+Cats+Meowing&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Funny Animal Videos YouTube",
+      "displayText": "Cat Funny Animal Videos YouTube",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Funny+Animal+Videos+YouTube&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Funny+Animal+Videos+YouTube",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cat+Funny+Animal+Videos+YouTube&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Fights with Other Cat",
+      "displayText": "Cat Fights with Other Cat",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Fights+with+Other+Cat&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Fights+with+Other+Cat",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cat+Fights+with+Other+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Fails",
+      "displayText": "Cat Fails",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Fails&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Fails",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cat+Fails&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Simon Cat Let Me In",
+      "displayText": "Simon Cat Let Me In",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Simon+Cat+Let+Me+In&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Simon+Cat+Let+Me+In",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Simon+Cat+Let+Me+In&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Games",
+      "displayText": "Cat Games",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Games&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Games",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Cat+Games&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Nyan Cat",
+      "displayText": "Nyan Cat",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Nyan+Cat&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Nyan+Cat",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Nyan+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Grumpy Cat",
+      "displayText": "Grumpy Cat",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Grumpy+Cat&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Grumpy+Cat",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Grumpy+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Funny Crazy Cats",
+      "displayText": "Funny Crazy Cats",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Funny+Crazy+Cats&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Funny+Crazy+Cats",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse1.mm.bing.net/th?q=Funny+Crazy+Cats&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Sounds",
+      "displayText": "Cat Sounds",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Sounds&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Sounds",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse3.mm.bing.net/th?q=Cat+Sounds&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Wild Cats",
+      "displayText": "Wild Cats",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Wild+Cats&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Wild+Cats",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Wild+Cats&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Cat Breeds",
+      "displayText": "Cat Breeds",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Cat+Breeds&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Cat+Breeds",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse2.mm.bing.net/th?q=Cat+Breeds&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    },
+    {
+      "text": "Dog vs Cat",
+      "displayText": "Dog vs Cat",
+      "webSearchUrl": "https://www.bing.com/videos/search?q=Dog+vs+Cat&FORM=VRPATC",
+      "searchLink": "https://api.cognitive.microsoft.com/api/v7/videos/search?q=Dog+vs+Cat",
+      "thumbnail": {
+        "thumbnailUrl": "https://tse4.mm.bing.net/th?q=Dog+vs+Cat&pid=Api&mkt=en-US&adlt=strict&t=1"
+      }
+    }
+  ]
+}
