@@ -78,13 +78,12 @@ function handleOnLoad() {
         renderErrorMessage("Invalid JSON response");
     }
 
-    var brelem = document.createElement("br");
+   
 
     // show raw JSON and headers
     //document.getElementById("jsondump").innerHTML = formatwithpre(JSON.stringify(jsobj, null, 2));
     for (video in jsobj.value){
-        
-
+        var brelem = document.createElement("br");
         var iframe = document.createElement("iframe");
         iframe.src = jsobj.value[video].contentUrl.replace("watch?v=","embed/");
         iframe.frameBorder = 0;
