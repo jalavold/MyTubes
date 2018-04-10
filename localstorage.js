@@ -44,7 +44,7 @@ function savenewcat(){
             localStorage.setItem("videosbycat", JSON.stringify(videosbycatObj));
         } else {
             var videosbycatObj = JSON.parse(localStorage.getItem("videosbycat"));
-            localStorage.setItem("videosbycat",JSON.stringify(userinfoobj));
+            localStorage.setItem("videosbycat",JSON.stringify(videosbycatObj));
         }
     } else {
         alert("Sorry, your browser does not support web storage...");
