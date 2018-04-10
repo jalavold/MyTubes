@@ -35,16 +35,17 @@ function writehtml (jsonDataObj){
 }
 
 
+
 function savenewcat(){
     var newcat = document.getElementById("newcat");
 
     if(typeof(Storage) !== "undefined") {
         if (localStorage.getItem("videosbycat") === null) {
-            var videosbycatObj = '{"categories":["' + newcat + ':[]}"}';
-            localStorage.setItem("videosbycat", JSON.stringify(videosbycatObj));
+            var catobj={catName:newcat,videosArray:[]};;
+            localStorage.setItem("videosbycat", JSON.stringify(catobj));
         } else {
-            var videosbycatObj = JSON.parse(localStorage.getItem("videosbycat"));
-            localStorage.setItem("videosbycat",JSON.stringify(videosbycatObj));
+            var catobj = JSON.parse(localStorage.getItem("videosbycat"));
+            localStorage.setItem("videosbycat",JSON.stringify(catobj));
         }
     } else {
         alert("Sorry, your browser does not support web storage...");
