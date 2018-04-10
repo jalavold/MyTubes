@@ -63,6 +63,10 @@ function bingSearchOptions(form) {
 // perform a related search (used by related search links)
 function searchBing() {
     var query = "site:youtube.com '" + document.getElementById("query").value + "'";
+    var videos = document.getElementById("videos");
+    while (videos.hasChildNodes()){
+        videos.removeChild(videos.lastChild);
+    }
     return bingWebSearch(query, bingSearchOptions(), key);
 }
 
@@ -91,8 +95,8 @@ function handleOnLoad() {
         iframe.width = "640px";
         iframe.setAttribute("allow","autoplay");
         iframe.setAttribute("allowFullScreen","");
-        document.getElementById("codeway").appendChild(iframe);
-        document.getElementById("codeway").appendChild(brelem);
+        document.getElementById("videos").appendChild(iframe);
+        document.getElementById("videos").appendChild(brelem);
     }
 }
 
@@ -112,3 +116,22 @@ function formatwithpre(text) {
     text = "" + text;
     return "<pre>" + text.replace(/&/g, "&amp;").replace(/</g, "&lt;") + "</pre>"
 }
+
+function toggleDivVis() {
+    var hidetest = document.getElementById("hidetest");
+    if (hidetest.hidden){
+        hidetest.hidden=false;
+    }else{
+        hidetest.hidden=true;
+    }
+    
+}
+
+function showmenu(divref) {
+    document.getElementById("menudiv").style.width = "100%";
+}
+
+function hidemenu() {
+    document.getElementById("menudiv").style.width = "0%";
+}
+

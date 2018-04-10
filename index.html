@@ -3,36 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <style>
-        .hamburger-menu
-        {
-            top: 10px;
-            width:60px;
-            height: 10px;
-            background-color:#111;
-            border-radius:5px;
-            position:relative;
+        .container {
+            display: inline-block;
+            cursor: pointer;
         }
 
-        .hamburger-menu:after, .hamburger-menu:before
-        {
-            content: '';
-            width: 100%;
-            height:10px;
-            background-color:#111;
-            position:absolute;
-            border-radius:5px;
+        .bar1, .bar2, .bar3 {
+            width: 35px;
+            height: 5px;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
         }
 
-        .hamburger-menu:after
-        {
-            top:20px;
+        .change .bar1 {
+            -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+            transform: rotate(-45deg) translate(-9px, 6px);
         }
 
-        .hamburger-menu:before
-        {
-            top:40px;
+        .change .bar2 {opacity: 0;}
+
+        .change .bar3 {
+            -webkit-transform: rotate(45deg) translate(-8px, -8px);
+            transform: rotate(45deg) translate(-8px, -8px);
         }
-        
+
         body {
             font-size: 32pt;
         }
@@ -75,6 +70,18 @@
             position: relative;
             vertical-align: text-top;
         }
+        #menudiv {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s;
+        }
     </style>
 </head>
 <body>
@@ -82,14 +89,34 @@
     <!-- <iframe width="90%" src="https://www.youtube.com/embed/mOO5qRjVFLw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
     </iframe> -->
     <div id="banner">
-        <div class="hamburger-menu"></div>
+        <div class="container" onclick="showmenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+        </div>
         <div id="title"><span>MyTubes Mobile</span></div>
     </div>
-    <input id="query" type="text">
-    <button type="button" onclick="searchBing()">Query</button>
-    <div id="codeway"></div>
-    <div id="videos"></div>
-    <div id="jsondump"></div>
+    <div id="menudiv">This is the menu
+        <span id="closemenu" onclick="hidemenu();">X</span>
+    </div>
+    <div id="querydiv">
+        <input id="query" type="text">
+        <button type="button" onclick="searchBing()">Query</button>
+        <div id="videos"></div>
+        <div id="jsondump"></div>
+    </div>
+    <div id="catform">
+        <input id="newcat" type="text">
+        <button type="button" onclick="savenewcat()">Query</button>
+        <span id="displaycats"></span>
+    </div>
+
+    <button type="button" onclick="toggleDivVis();"></button>
+    <div id="hidetest">
+        hide test text
+        <div>sub div text</div>
+    </div>
+<script src="bingapicode.js"></script>
+<script src="localstorage.js"></script>
 </body>
 </html>
-<script src="bingapicode.js"></script>
