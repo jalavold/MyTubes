@@ -2,99 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <style>
-        .container {
-            display: inline-block;
-            cursor: pointer;
-        }
-
-        .bar1, .bar2, .bar3 {
-            width: 35px;
-            height: 5px;
-            background-color: #333;
-            margin: 6px 0;
-            transition: 0.4s;
-        }
-
-        .change .bar1 {
-            -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-            transform: rotate(-45deg) translate(-9px, 6px);
-        }
-
-        .change .bar2 {opacity: 0;}
-
-        .change .bar3 {
-            -webkit-transform: rotate(45deg) translate(-8px, -8px);
-            transform: rotate(45deg) translate(-8px, -8px);
-        }
-
-        body {
-            font-size: 32pt;
-        }
-    
-        input, button, select, option, textarea {
-            height: 100%;
-        }
-
-        select, option {
-            -webkit-appearance: none; -moz-appearance: none;
-            display: block;
-            margin: 1em 0 0 0;
-            width: 100%; height: 50px;
-            line-height: 50px; font-size: 30pt;
-            border: 1px solid #bbb;
-        }
-        input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
-            -webkit-appearance: none; -moz-appearance: none;
-            display: block;
-            margin: 1em 0 0 0;
-            width: 100%; height: 50px;
-            line-height: 50px; font-size: 30pt;
-            border: 1px solid #bbb;
-        }
-
-        button[type=button] {
-            -webkit-appearance: none; -moz-appearance: none;
-            display: block;
-            margin: 1em 0 0 0;
-            font-size: 1em; line-height: 2.0em;
-            color: #333;
-            font-weight: bold;
-            height: 2.0em; width: 100%;
-            background: #fdfdfd; background: -moz-linear-gradient(top, #fdfdfd 0%, #bebebe 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#bebebe)); background: -webkit-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -o-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -ms-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: linear-gradient(to bottom, #fdfdfd 0%,#bebebe 100%);
-            border: 1px solid #bbb;
-            -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
-        }
-        #title{
-            top: 0px;
-            font-size: 1.5em;
-            text-align: center;
-        }
-        #banner{
-            top:0px;
-        }
-        span{
-            top: -15px;
-            position: relative;
-            vertical-align: text-top;
-        }
-        #menudiv {
-            height: 100%;
-            width: 0;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: rgb(0,0,0);
-            background-color: rgba(0,0,0, 0.9);
-            overflow-x: hidden;
-            transition: 0.5s;
-        }
-        #closemenu{
-            top: 8pt;
-            left: 4pt;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="mytubes.css">
 </head>
 <body onload="loadddlCategories()">
     
@@ -122,14 +30,9 @@
         <button type="button" onclick="savenewcat()">Query</button>
         <span id="displaycats"></span>
     </div>
-    <div id="addvideoform">
-        
+    <div id="addvideoform">   
     </div>
-    <button type="button" onclick="toggleDivVis();"></button>
-    <div id="hidetest">
-        hide test text
-        <div>sub div text</div>
-    </div>
+    <script scr="mytubesmain.js"></script>
     <script src="localstorage.js"></script>
     <script src="bingapicode.js"></script>
 
