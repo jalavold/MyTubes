@@ -52,7 +52,7 @@ function loadddlCategories(){
         var ddlCategories = document.getElementById("ddlCategories");
         var newoption = document.createElement("option");
         newoption.value = "none";
-        newoption.innerHTML = "No categories defined.  Click \"New Category\" button to define one";
+        newoption.innerHTML = "Click \"New Category\" to create categories";
         ddlCategories.appendChild(newoption);
     }
 }
