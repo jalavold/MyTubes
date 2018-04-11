@@ -73,7 +73,7 @@ button[type=button] {
 }
 
 #titlespan{
-    top: 0px;
+    top: 5px;
     display: inline-block;
     text-align: center;
     vertical-align: top;
