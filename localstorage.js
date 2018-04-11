@@ -68,7 +68,7 @@ function savenewcat(){
                 }
             } */
 
-            localStorage.setItem("videosbycat",JSON.stringify(catobj));
+            localStorage.setItem("videosbycat",JSON.stringify(categories));
         }
     } else {
         alert("Sorry, your browser does not support web storage...");
