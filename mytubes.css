@@ -70,7 +70,7 @@ button[type=button] {
     top:0px;
 }
 #titlespan{
-
+    text-align: center;
     vertical-align: top;
 }
 #menudiv {
