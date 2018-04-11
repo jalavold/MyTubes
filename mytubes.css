@@ -61,13 +61,6 @@ button[type=button] {
     border: 1px solid #bbb;
     -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
 }
-#title{
-    display: inline-block;
-    top: 0;
-    font-size: 1.5em;
-    text-align: center;
-    width: 80%;
-}
 
 #banner{
     top:0px;
@@ -79,7 +72,7 @@ button[type=button] {
     vertical-align: top;
     margin: auto;
     width: 80%;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #space {
