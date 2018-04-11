@@ -85,9 +85,9 @@ function savenewcat(){
                     categories.categories.push(catobj);
                     localStorage.setItem("videosbycat",JSON.stringify(categories));
                     loadddlCategories();
-                    catformmessage.textContent = "New category " + newcat + " created successfully!"
+                    catformmessage.textContent = "New category " + newcat.innerHTML + " created successfully!"
                 } else {
-                    catformmessage.textContent  = "Sorry, there already is a category named " + newcat + ".";
+                    catformmessage.textContent  = "Sorry, there already is a category named " + newcat.innerHTML + ".";
                 }
 
                 /*             for (catobj in categories.categories){
