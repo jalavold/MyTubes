@@ -24,5 +24,11 @@ function hidemenu() {
 
 function onbodyloadcode(){
     loadddlCategories();
-    
+    showhidediv(document.getElementById("catform"),true);
+    showhidediv(document.getElementById("addvideoform"),true);
+    showhidediv(document.getElementById("addvideoform"),false);
+}
+
+function showhidediv(divref, truefalseval){
+    divref.hidden = truefalseval;
 }
