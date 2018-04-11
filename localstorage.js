@@ -61,7 +61,7 @@ function loadddlCategories(){
 function savenewcat(){
     var newcat = document.getElementById("newcat");
     var catformmessage = document.getElementById("catformmessage")
-    if (newcat.innerHTML === ""){
+    if (newcat.value === ""){
         catformmessage.textContent = "Please provide a new category name and try again."
     } else {
             if(typeof(Storage) !== "undefined") {
@@ -75,7 +75,7 @@ function savenewcat(){
                 var existingcategory = false;
                 for (catobj in categories.categories){
                     var categoryName = categories.categories[catobj].catName;
-                    if (categoryName === newcat.innerHTML){
+                    if (categoryName === newcat.value){
                         existingcategory = true;
                     }
                 }
@@ -85,9 +85,9 @@ function savenewcat(){
                     categories.categories.push(catobj);
                     localStorage.setItem("videosbycat",JSON.stringify(categories));
                     loadddlCategories();
-                    catformmessage.textContent = "New category " + newcat.innerHTML + " created successfully!"
+                    catformmessage.textContent = "New category " + newcat.value + " created successfully!"
                 } else {
-                    catformmessage.textContent  = "Sorry, there already is a category named " + newcat.innerHTML + ".";
+                    catformmessage.textContent  = "Sorry, there already is a category named " + newcat.value + ".";
                 }
 
                 /*             for (catobj in categories.categories){
