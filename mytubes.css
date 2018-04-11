@@ -70,9 +70,10 @@ button[type=button] {
 
 #banner{
     top:0px;
-    text-align: center;
 }
+
 #titlespan{
+    display: inline-block;
     text-align: center;
     vertical-align: top;
     margin: 0 0 50% 50%;
