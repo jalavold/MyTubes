@@ -48,7 +48,13 @@ function loadddlCategories(){
             newoption.innerHTML = categories.categories[catobj].catName;
             ddlCategories.appendChild(newoption);
         }
-    } 
+    } else {
+        var ddlCategories = document.getElementById("ddlCategories");
+        var newoption = document.createElement("option");
+        newoption.value = "none";
+        newoption.innerHTML = "No categories defined.  Click \"New Category\" button to define one";
+        ddlCategories.appendChild(newoption);
+    }
 }
 
 

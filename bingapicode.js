@@ -140,3 +140,7 @@ function hidemenu() {
     menudiv.style.color = "black";
 }
 
+function onbodyloadcode(){
+    loadddlCategories();
+    
+}
