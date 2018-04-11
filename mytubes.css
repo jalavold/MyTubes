@@ -67,6 +67,7 @@ button[type=button] {
 }
 
 #titlespan{
+    top: -4px;
     display: inline-block;
     text-align: center;
     vertical-align: top;
