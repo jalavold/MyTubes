@@ -47,16 +47,27 @@ function savenewcat(){
         } else {
             
             var categories = JSON.parse(localStorage.getItem("videosbycat"));
-
+            var existingcategory = false;
             for (catobj in categories.categories){
+                var categoryName = categories.categories[catobj].catName
+                if (categoryName === newcat){
+                    existingcategory = true;
+                }
+            }
+
+            if(!existingcategory){
+                var catobj={catName:newcat.value,videosArray:[]};
+                categories.categories.push(catobj);
+            }
+/*             for (catobj in categories.categories){
                 var categoryName = categories.categories[catobj].catName;
                 var videosArray = categories.categories[catobj].videosArray;
                 if (categoryName === "cat"){
                     var videoObj = {usertitle:"Cats R Fun", youtubetitle:"you tube cat title", link:"https://embededlink"};
                     videosArray.push(videoObj);
                 }
-                var test2 = test;
-            }
+            } */
+
             localStorage.setItem("videosbycat",JSON.stringify(catobj));
         }
     } else {
