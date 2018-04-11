@@ -24,7 +24,7 @@ function hidemenu() {
 
 function onbodyloadcode(){
     loadddlCategories();
-    resetinputfields();
+    resetelements();
     mainview();
 }
 
