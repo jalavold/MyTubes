@@ -1,6 +1,7 @@
 .container {
     display: inline-block;
     cursor: pointer;
+    width: 10%;
 }
 
 .bar1, .bar2, .bar3 {
@@ -77,8 +78,13 @@ button[type=button] {
     text-align: center;
     vertical-align: top;
     margin: auto;
-    width: 100%;
+    width: 80%;
 }
+
+#space {
+    width: 10%;
+}
+
 #menudiv {
     height: 100%;
     width: 0;
