@@ -69,7 +69,7 @@ button[type=button] {
     top:0px;
 }
 span{
-    top: -15px;
+    top: 0;
     position: relative;
     vertical-align: text-top;
 }
