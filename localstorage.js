@@ -61,7 +61,7 @@ function loadddlCategories(){
 function savenewcat(){
     var newcat = document.getElementById("newcat");
     var catformmessage = document.getElementById("catformmessage")
-    if (newcat === ""){
+    if (newcat.innerHTML === ""){
         catformmessage.textContent = "Please provide a new category name and try again."
     } else {
             if(typeof(Storage) !== "undefined") {
@@ -75,7 +75,7 @@ function savenewcat(){
                 var existingcategory = false;
                 for (catobj in categories.categories){
                     var categoryName = categories.categories[catobj].catName;
-                    if (categoryName === newcat){
+                    if (categoryName === newcat.innerHTML){
                         existingcategory = true;
                     }
                 }
