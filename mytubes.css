@@ -74,6 +74,7 @@ button[type=button] {
 #titlespan{
     text-align: center;
     vertical-align: top;
+    margin: 0 0 50% 50%;
 }
 #menudiv {
     height: 100%;
