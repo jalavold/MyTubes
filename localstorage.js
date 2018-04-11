@@ -53,8 +53,11 @@ function loadddlCategories(){
         var ddlCategories = document.getElementById("ddlCategories");
         var newoption = document.createElement("option");
         newoption.value = "none";
-        newoption.innerHTML = "Click \"New Category\" to create categories";
+        newoption.innerHTML = "NONE";
         ddlCategories.appendChild(newoption);
+        var catformmessage = document.getElementById("catformmessage");
+        catformmessage.textContent = "No categories defined. Please provide a category name and depress the \"New Category\" button.";
+        catformmessage.style.color = "red";
     }
 }
 
@@ -64,6 +67,7 @@ function savenewcat(){
     var catformmessage = document.getElementById("catformmessage")
     if (newcat.value === ""){
         catformmessage.textContent = "Please provide a new category name and try again."
+        catformmessage.style.color = "red";
     } else {
             if(typeof(Storage) !== "undefined") {
             if (localStorage.getItem("videosbycat") === null) {
@@ -87,8 +91,10 @@ function savenewcat(){
                     localStorage.setItem("videosbycat",JSON.stringify(categories));
                     loadddlCategories();
                     catformmessage.textContent = "New category " + newcat.value + " created successfully!"
+                    catformmessage.style.color = "green";
                 } else {
                     catformmessage.textContent  = "Sorry, there already is a category named " + newcat.value + ".";
+                    catformmessage.style.color = "red";
                 }
 
                 /*             for (catobj in categories.categories){
