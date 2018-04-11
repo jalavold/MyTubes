@@ -18,10 +18,13 @@
     </div>
     <div id="menudiv">
         <span id="closemenu" onclick="hidemenu();">X - Close</span><br>
-        <button type="button">Main</button>
-        <button type="button">Search YouTube</button>
-        <button type="button">Videos by Category</button>
-        <button type="button">Add Categories</button>
+        <button type="button" onclick="mainview()">Main</button>
+        <button type="button" onclick="searchyoutubeview()">Search YouTube</button>
+        <button type="button" onclick="catformview()">Videos by Category</button>
+        <button type="button" onclick="videosbycategoryview()">Add Categories</button>
+    </div>
+    <div id="maindiv">
+        <p>This view will have a description of the sites purpose and functionality</p>
     </div>
     <div id="querydiv">
         <input id="query" type="text">
@@ -36,6 +39,8 @@
         <span id="catformmessage"></span>
     </div>
     <div id="addvideoform">   
+    </div>
+    <div id="videosbycategory">
     </div>
     <script src="mytubesmain.js"></script>
     <script src="localstorage.js"></script>

@@ -24,6 +24,7 @@ function hidemenu() {
 
 function onbodyloadcode(){
     loadddlCategories();
+    resetinputfields();
     showhidediv(document.getElementById("catform"),true);
     showhidediv(document.getElementById("addvideoform"),true);
     showhidediv(document.getElementById("addvideoform"),false);
@@ -31,4 +32,39 @@ function onbodyloadcode(){
 
 function showhidediv(divref, truefalseval){
     divref.hidden = truefalseval;
+}
+
+function resetelements(){
+    document.getElementById("newcat").value = "";
+    document.getElementById("query").value = "";
+    while (videos.hasChildNodes()){
+        videos.removeChild(videos.lastChild);
+    }
+}
+
+function mainview(){
+    showhidediv(document.getElementById("maindiv"),false);
+    showhidediv(document.getElementById("querydiv"),true);
+    showhidediv(document.getElementById("catform"),true);
+    showhidediv(document.getElementById("addvideoform"),true);
+    showhidediv(document.getElementById("videosbycategory"),true);
+    resetelements();
+}
+
+function searchyoutubeview(){
+    showhidediv(document.getElementById("maindiv"),true);
+    showhidediv(document.getElementById("querydiv"),true);
+    showhidediv(document.getElementById("catform"),true);
+    showhidediv(document.getElementById("addvideoform"),true);
+    showhidediv(document.getElementById("videosbycategory"),true);
+    resetelements();
+}
+
+function videosbycategoryview(){
+    showhidediv(document.getElementById("maindiv"),false);
+    showhidediv(document.getElementById("querydiv"),true);
+    showhidediv(document.getElementById("catform"),true);
+    showhidediv(document.getElementById("addvideoform"),true);
+    showhidediv(document.getElementById("videosbycategory"),true);
+    resetelements();
 }
