@@ -34,6 +34,18 @@ function writehtml (jsonDataObj){
     document.getElementById("userTable").innerHTML = htmltable;
 }
 
+function loadddlCategories(){
+    if (localStorage.getItem("videosbycat") != null) {
+        var categories = JSON.parse(localStorage.getItem("videosbycat"));
+        for (catobj in categories.categories){
+            var ddlCategories = document.getElementById("ddlCategories");
+            var newoption = document.createElement("option");
+            newoption.value = categories.categories[catobj].catName;
+            newoption.innerHTML = categories.categories[catobj].catName;
+            ddlCategories.appendChild(newoption);
+        }
+    } 
+}
 
 
 function savenewcat(){
@@ -49,7 +61,7 @@ function savenewcat(){
             var categories = JSON.parse(localStorage.getItem("videosbycat"));
             var existingcategory = false;
             for (catobj in categories.categories){
-                var categoryName = categories.categories[catobj].catName
+                var categoryName = categories.categories[catobj].catName;
                 if (categoryName === newcat){
                     existingcategory = true;
                 }
@@ -59,7 +71,8 @@ function savenewcat(){
                 var catobj={catName:newcat.value,videosArray:[]};
                 categories.categories.push(catobj);
             }
-/*             for (catobj in categories.categories){
+
+            /*             for (catobj in categories.categories){
                 var categoryName = categories.categories[catobj].catName;
                 var videosArray = categories.categories[catobj].videosArray;
                 if (categoryName === "cat"){
@@ -69,6 +82,7 @@ function savenewcat(){
             } */
 
             localStorage.setItem("videosbycat",JSON.stringify(categories));
+            loadddlCategories();
         }
     } else {
         alert("Sorry, your browser does not support web storage...");
