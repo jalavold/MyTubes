@@ -60,41 +60,49 @@ function loadddlCategories(){
 
 function savenewcat(){
     var newcat = document.getElementById("newcat");
-
-    if(typeof(Storage) !== "undefined") {
-        if (localStorage.getItem("videosbycat") === null) {
-            var catobj={catName:newcat.value,videosArray:[]};
-            var newcategory = {categories:[catobj]};
-            localStorage.setItem("videosbycat", JSON.stringify(newcategory));
-        } else {
-            
-            var categories = JSON.parse(localStorage.getItem("videosbycat"));
-            var existingcategory = false;
-            for (catobj in categories.categories){
-                var categoryName = categories.categories[catobj].catName;
-                if (categoryName === newcat){
-                    existingcategory = true;
-                }
-            }
-
-            if(!existingcategory){
-                var catobj={catName:newcat.value,videosArray:[]};
-                categories.categories.push(catobj);
-            }
-
-            /*             for (catobj in categories.categories){
-                var categoryName = categories.categories[catobj].catName;
-                var videosArray = categories.categories[catobj].videosArray;
-                if (categoryName === "cat"){
-                    var videoObj = {usertitle:"Cats R Fun", youtubetitle:"you tube cat title", link:"https://embededlink"};
-                    videosArray.push(videoObj);
-                }
-            } */
-
-            localStorage.setItem("videosbycat",JSON.stringify(categories));
-            loadddlCategories();
-        }
+    if (newcat === ""){
+        document.getElementById("catformmessage").innerHTML = "Please provide a new category name and try again."
     } else {
-        alert("Sorry, your browser does not support web storage...");
+            if(typeof(Storage) !== "undefined") {
+            if (localStorage.getItem("videosbycat") === null) {
+                var catobj={catName:newcat.value,videosArray:[]};
+                var newcategory = {categories:[catobj]};
+                localStorage.setItem("videosbycat", JSON.stringify(newcategory));
+            } else {
+                
+                var categories = JSON.parse(localStorage.getItem("videosbycat"));
+                var existingcategory = false;
+                for (catobj in categories.categories){
+                    var categoryName = categories.categories[catobj].catName;
+                    if (categoryName === newcat){
+                        existingcategory = true;
+                    }
+                }
+
+                if(!existingcategory){
+                    var catobj={catName:newcat.value,videosArray:[]};
+                    categories.categories.push(catobj);
+                    localStorage.setItem("videosbycat",JSON.stringify(categories));
+                    loadddlCategories();
+                } else {
+                    document.getElementById("catformmessage").innerHTML = "Sorry, there already is a category named " + newcat + ".";
+                }
+
+                /*             for (catobj in categories.categories){
+                    var categoryName = categories.categories[catobj].catName;
+                    var videosArray = categories.categories[catobj].videosArray;
+                    if (categoryName === "cat"){
+                        var videoObj = {usertitle:"Cats R Fun", youtubetitle:"you tube cat title", link:"https://embededlink"};
+                        videosArray.push(videoObj);
+                    }
+                } */
+
+
+                
+            }
+        } else {
+            alert("Sorry, your browser does not support web storage...");
+        }
     }
+
 }
