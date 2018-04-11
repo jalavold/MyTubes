@@ -48,7 +48,7 @@ function savenewcat(){
             
             var categories = JSON.parse(localStorage.getItem("videosbycat"));
 
-            for (catobj in categories.categories[0]){
+            for (catobj in categories.categories){
                 var test = catobj.catName;
                 var test2 = test;
             }
