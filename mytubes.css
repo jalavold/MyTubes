@@ -3,8 +3,7 @@
     display: inline-block;
     cursor: pointer;
     width: 10%;
-    top: 10px;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
 }
 
 .bar1, .bar2, .bar3 {
