@@ -47,6 +47,7 @@ function mainview(){
     showhidediv(document.getElementById("addvideoform"),true);
     showhidediv(document.getElementById("videosbycategory"),true);
     resetelements();
+    hidemenu();
 }
 
 function searchyoutubeview(){
@@ -56,6 +57,7 @@ function searchyoutubeview(){
     showhidediv(document.getElementById("addvideoform"),true);
     showhidediv(document.getElementById("videosbycategory"),true);
     resetelements();
+    hidemenu();
 }
 
 function videosbycategoryview(){
@@ -65,6 +67,7 @@ function videosbycategoryview(){
     showhidediv(document.getElementById("addvideoform"),true);
     showhidediv(document.getElementById("videosbycategory"),false);
     resetelements();
+    hidemenu();
 }
 
 function catformview(){
@@ -74,5 +77,6 @@ function catformview(){
     showhidediv(document.getElementById("addvideoform"),true);
     showhidediv(document.getElementById("videosbycategory"),true);
     resetelements();
+    hidemenu();
 }
 
