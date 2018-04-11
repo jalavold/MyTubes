@@ -77,6 +77,7 @@ button[type=button] {
     text-align: center;
     vertical-align: top;
     margin: auto;
+    width: 100%;
 }
 #menudiv {
     height: 100%;
