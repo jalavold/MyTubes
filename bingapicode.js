@@ -92,9 +92,7 @@ function handleOnLoad() {
         var btn = document.createElement("button");
         btn.innerHTML="Save";
         var onclickstring="addvideoform('" + jsobj.value[video].name + "', '" + jsobj.value[video].contentUrl.replace("watch?v=","embed/") + "')";
-        btn.onclick = function(){
-            onclickstring;
-        }
+        btn.onclick = onclickstring;
         iframe.src = jsobj.value[video].contentUrl.replace("watch?v=","embed/");
         iframe.frameBorder = 0;
         iframe.height = "360px";
