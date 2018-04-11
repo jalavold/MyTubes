@@ -84,7 +84,7 @@
         }
     </style>
 </head>
-<body>
+<body onload="loadddlCategories()">
     
     <!-- <iframe width="90%" src="https://www.youtube.com/embed/mOO5qRjVFLw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
     </iframe> -->
@@ -102,6 +102,7 @@
     <div id="querydiv">
         <input id="query" type="text">
         <button type="button" onclick="searchBing()">Query</button>
+        <select id="ddlCategories"></select>
         <div id="videos"></div>
         <div id="jsondump"></div>
     </div>
