@@ -86,8 +86,5 @@ function addvideoformview(){
     showhidediv(document.getElementById("catform"),true);
     showhidediv(document.getElementById("addvideoform"),false);
     showhidediv(document.getElementById("videosbycategory"),true);
-    resetelements();
-    hidemenu();
 }
-
 

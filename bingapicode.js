@@ -90,7 +90,8 @@ function handleOnLoad() {
         var brelem = document.createElement("br");
         var iframe = document.createElement("iframe");
         var btn = document.createElement("button");
-        btn.onclick("")
+        btn.innerHTML="Save";
+        btn.onclick("addvideoform('" + jsobj.value[video].name + "', '" + jsobj.value[video].contentUrl.replace("watch?v=","embed/") + "')");
         iframe.src = jsobj.value[video].contentUrl.replace("watch?v=","embed/");
         iframe.frameBorder = 0;
         iframe.height = "360px";
@@ -103,6 +104,11 @@ function handleOnLoad() {
     }
 }
 
+function addvideoform(youtubetitle, link){
+    document.getElementById("youtubetitle").value = youtubetitle.value;
+    document.getElementById("urllink").value = link.value;
+    addvideoformview();
+}
 
 // escape quotes to HTML entities for use in HTML tag attributes
 function escapeQuotes(text) {
