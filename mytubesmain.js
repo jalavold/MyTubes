@@ -53,18 +53,27 @@ function mainview(){
 
 function searchyoutubeview(){
     showhidediv(document.getElementById("maindiv"),true);
-    showhidediv(document.getElementById("querydiv"),true);
+    showhidediv(document.getElementById("querydiv"),false);
     showhidediv(document.getElementById("catform"),true);
     showhidediv(document.getElementById("addvideoform"),true);
     showhidediv(document.getElementById("videosbycategory"),true);
     resetelements();
 }
 
+function catformview(){
+    showhidediv(document.getElementById("maindiv"),true);
+    showhidediv(document.getElementById("querydiv"),true);
+    showhidediv(document.getElementById("catform"),false);
+    showhidediv(document.getElementById("addvideoform"),true);
+    showhidediv(document.getElementById("videosbycategory"),true);
+    resetelements();
+}
+
 function videosbycategoryview(){
-    showhidediv(document.getElementById("maindiv"),false);
+    showhidediv(document.getElementById("maindiv"),true);
     showhidediv(document.getElementById("querydiv"),true);
     showhidediv(document.getElementById("catform"),true);
     showhidediv(document.getElementById("addvideoform"),true);
-    showhidediv(document.getElementById("videosbycategory"),true);
+    showhidediv(document.getElementById("videosbycategory"),false);
     resetelements();
 }
