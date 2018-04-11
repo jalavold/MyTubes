@@ -37,8 +37,12 @@ function writehtml (jsonDataObj){
 function loadddlCategories(){
     if (localStorage.getItem("videosbycat") != null) {
         var categories = JSON.parse(localStorage.getItem("videosbycat"));
-        for (catobj in categories.categories){
-            var ddlCategories = document.getElementById("ddlCategories");
+        var ddlCategories = document.getElementById("ddlCategories");
+        while (ddlCategories.hasChildNodes()){
+            ddlCategories.removeChild(ddlCategories.lastChild);
+        }
+
+        for (catobj in categories.categories){   
             var newoption = document.createElement("option");
             newoption.value = categories.categories[catobj].catName;
             newoption.innerHTML = categories.categories[catobj].catName;
