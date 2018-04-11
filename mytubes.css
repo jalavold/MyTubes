@@ -68,8 +68,8 @@ button[type=button] {
 #banner{
     top:0px;
 }
-span{
-    top: 0;
+#titlespan{
+    top: -15px;
     position: relative;
     vertical-align: text-top;
 }
