@@ -107,8 +107,8 @@ function handleOnLoad() {
 }
 
 function addvideoform(youtubetitle, link){
-    document.getElementById("youtubetitle").value = youtubetitle.value;
-    document.getElementById("urllink").value = link.value;
+    document.getElementById("youtubetitle").innerHTML = youtubetitle.value;
+    document.getElementById("urllink").innerHTML = link.value;
     addvideoformview();
 }
 
