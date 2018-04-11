@@ -50,6 +50,7 @@ function savenewcat(){
 
             for (catobj in categories){
                 var test = catobj.catName;
+                var test2 = test;
             }
             localStorage.setItem("videosbycat",JSON.stringify(catobj));
         }
