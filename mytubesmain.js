@@ -25,9 +25,7 @@ function hidemenu() {
 function onbodyloadcode(){
     loadddlCategories();
     resetinputfields();
-    showhidediv(document.getElementById("catform"),true);
-    showhidediv(document.getElementById("addvideoform"),true);
-    showhidediv(document.getElementById("addvideoform"),false);
+    mainview();
 }
 
 function showhidediv(divref, truefalseval){
