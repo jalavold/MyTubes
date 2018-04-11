@@ -128,10 +128,15 @@ function toggleDivVis() {
 }
 
 function showmenu(divref) {
-    document.getElementById("menudiv").style.width = "100%";
+    var menudiv = document.getElementById("menudiv")
+    menudiv.style.width = "100%";
+    menudiv.style.color = "white";
+
 }
 
 function hidemenu() {
-    document.getElementById("menudiv").style.width = "0%";
+    var menudiv = document.getElementById("menudiv")
+    menudiv.style.width = "0%";
+    menudiv.style.color = "black";
 }
 
