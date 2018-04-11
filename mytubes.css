@@ -69,8 +69,7 @@ button[type=button] {
     top:0px;
 }
 #titlespan{
-    top: -15px;
-    position: relative;
+
     vertical-align: text-top;
 }
 #menudiv {
