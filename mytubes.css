@@ -76,7 +76,7 @@ button[type=button] {
     display: inline-block;
     text-align: center;
     vertical-align: top;
-    margin: 0 50% 0 50%;
+    margin: auto;
     width:80%;
 }
 #menudiv {
