@@ -38,6 +38,7 @@ function loadddlCategories(){
     if (localStorage.getItem("videosbycat") != null) {
         var categories = JSON.parse(localStorage.getItem("videosbycat"));
         var ddlCategories = document.getElementById("ddlCategories");
+        ddlCategories.style.ic
         while (ddlCategories.hasChildNodes()){
             ddlCategories.removeChild(ddlCategories.lastChild);
         }
