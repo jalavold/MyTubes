@@ -89,6 +89,8 @@ function handleOnLoad() {
     for (video in jsobj.value){
         var brelem = document.createElement("br");
         var iframe = document.createElement("iframe");
+        var btn = document.createElement("button");
+        btn.onclick("")
         iframe.src = jsobj.value[video].contentUrl.replace("watch?v=","embed/");
         iframe.frameBorder = 0;
         iframe.height = "360px";
@@ -96,6 +98,7 @@ function handleOnLoad() {
         iframe.setAttribute("allow","autoplay");
         iframe.setAttribute("allowFullScreen","");
         document.getElementById("videos").appendChild(iframe);
+        document.getElementById("videos").appendChild(btn);
         document.getElementById("videos").appendChild(brelem);
     }
 }
@@ -116,4 +119,5 @@ function formatwithpre(text) {
     text = "" + text;
     return "<pre>" + text.replace(/&/g, "&amp;").replace(/</g, "&lt;") + "</pre>"
 }
+
 

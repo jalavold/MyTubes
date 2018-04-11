@@ -80,3 +80,14 @@ function catformview(){
     hidemenu();
 }
 
+function addvideoformview(){
+    showhidediv(document.getElementById("maindiv"),true);
+    showhidediv(document.getElementById("querydiv"),true);
+    showhidediv(document.getElementById("catform"),true);
+    showhidediv(document.getElementById("addvideoform"),false);
+    showhidediv(document.getElementById("videosbycategory"),true);
+    resetelements();
+    hidemenu();
+}
+
+
