@@ -51,6 +51,10 @@ function savenewcat(){
             for (catobj in categories.categories){
                 var categoryName = categories.categories[catobj].catName;
                 var videosArray = categories.categories[catobj].videosArray;
+                if (categoryName === "cat"){
+                    var videoObj = {usertitle:"Cats R Fun", youtubetitle:"you tube cat title", link:"https://embededlink"};
+                    videosArray.push(videoObj);
+                }
                 var test2 = test;
             }
             localStorage.setItem("videosbycat",JSON.stringify(catobj));
