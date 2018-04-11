@@ -7,13 +7,12 @@
     <script src="localstorage.js"></script>
     <script src="bingapicode.js"></script>
     <script>
-        mainview();
         document.addEventListener('DOMContentLoaded', function() {
             onbodyloadcode();
         }, false);
 </script>
 </head>
-<body>
+<body onload="mainview()">
     <div id="banner">
         <div class="container" onclick="showmenu(this)">
                 <div class="bar1"></div>
