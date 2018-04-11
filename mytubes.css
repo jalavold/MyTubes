@@ -79,6 +79,7 @@ button[type=button] {
     vertical-align: top;
     margin: auto;
     width: 80%;
+    font-size: 1.2em;
 }
 
 #space {
