@@ -121,7 +121,7 @@ button[type=button] {
 }
 
 .tooltip {
-    width: 100%;
+    width: 600px;
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
