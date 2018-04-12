@@ -88,6 +88,7 @@ function handleOnLoad() {
     //document.getElementById("jsondump").innerHTML = formatwithpre(JSON.stringify(jsobj, null, 2));
     for (video in jsobj.value){
         var brelem = document.createElement("br");
+        var brelem2 = document.createElement("br");
         var iframemaindiv = document.createElement("div");
         var iframediv = document.createElement("div");
         var iframebuttondiv = document.createElement("div");
@@ -124,7 +125,7 @@ function handleOnLoad() {
         document.getElementById("videos").appendChild(iframemaindiv);
         // document.getElementById("videos").appendChild(btn);
         document.getElementById("videos").appendChild(brelem);
-        document.getElementById("videos").appendChild(brelem);
+        document.getElementById("videos").appendChild(brelem2);
     }
 }
 
