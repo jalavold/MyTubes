@@ -151,12 +151,7 @@ function showcatvideos(){
                     var tooltipdiv = document.createElement("div");
                     tooltipdiv.setAttribute("class", "tooltip");
                     span.setAttribute("class", "tooltiptext");
-                    span.ontouchstart= function() {
-                        span.className = ".tooltipontouch";
-                    };
-                    span.ontouchstart= function() {
-                        span.className = ".tooltiptext";
-                    };
+                    span.setAttribute('ontouchstart','touch_start(event');
                     tooltipdiv.textContent = videosArray[video].usertitle + " - Video Details";
                     span.innerHTML = "Title: " + videosArray[video].youtubetitle + " <br>";
                     span.innerHTML += "Subtitle: " + videosArray[video].usertitle + " <br>";
@@ -178,4 +173,9 @@ function showcatvideos(){
             }
         }
     }
+}
+
+function touch_start(e){
+  e.preventDefault();
+  e.target.onclick();
 }
