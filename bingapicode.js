@@ -124,6 +124,7 @@ function handleOnLoad() {
         document.getElementById("videos").appendChild(iframemaindiv);
         // document.getElementById("videos").appendChild(btn);
         document.getElementById("videos").appendChild(brelem);
+        document.getElementById("videos").appendChild(brelem);
     }
 }
 
