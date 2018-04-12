@@ -131,9 +131,9 @@ function savevideotocat(){
         if (categoryName === ddlcat.value){
             var videoObj = {usertitle:usersubtitle.value, youtubetitle:youtubetitle.value, link:urllink.value};
             videosArray.push(videoObj);
+            localStorage.setItem("videosbycat",JSON.stringify(categories));
             document.getElementById("addvideomessage").textContent = "Video added category successfully!"
         }
     }
-    localStorage.setItem("videosbycat",JSON.stringify(categories));
     loadddlCategories();
 }
