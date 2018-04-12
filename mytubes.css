@@ -35,10 +35,10 @@ input, button, select, option, textarea {
 }
 
 select, option {
-    -webkit-appearance: none; -moz-appearance: none; 
+    -webkit-appearance: none; -moz-appearance: none;
     display: block;
-    margin: .25em 0 .25em 0;
-    width: 98%; height: 50px;
+    margin: auto;
+    width: 99%; height: 50px;
     line-height: 50px; font-size: 30pt;
     border: 1px solid #bbb;
 }
