@@ -103,7 +103,7 @@ function handleOnLoad() {
         iframe.style.display = "inline-block";
         btn.setAttribute("class", "iframeclass");
         btn.style.display = "inline-block";
-        btn.style.width = "20%";
+        btn.style.width = "100%";
         btn.type = "button";
         btn.innerHTML="Save";
         var onclickstring="addvideoform('" + jsobj.value[video].name + "', '" + jsobj.value[video].contentUrl.replace("watch?v=","embed/") + "');";
