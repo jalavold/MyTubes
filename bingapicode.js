@@ -88,6 +88,9 @@ function handleOnLoad() {
     //document.getElementById("jsondump").innerHTML = formatwithpre(JSON.stringify(jsobj, null, 2));
     for (video in jsobj.value){
         var brelem = document.createElement("br");
+        var iframemaindiv = document.createElement("div");
+        var iframemdiv = document.createElement("div");
+        var iframebuttondiv = document.createElement("div");
         var iframe = document.createElement("iframe");
         var btn = document.createElement("button");
         btn.type = "button";
@@ -100,8 +103,12 @@ function handleOnLoad() {
         iframe.width = "640px";
         iframe.setAttribute("allow","autoplay");
         iframe.setAttribute("allowFullScreen","");
-        document.getElementById("videos").appendChild(iframe);
-        document.getElementById("videos").appendChild(btn);
+        iframemdiv.appendChild(iframe);
+        iframebuttondiv.appendChild(btn);
+        iframemaindiv.appendChild(iframemdiv);
+        iframemaindiv.appendChild(iframebuttondiv)
+        document.getElementById("videos").appendChild(iframemaindiv);
+        // document.getElementById("videos").appendChild(btn);
         document.getElementById("videos").appendChild(brelem);
     }
 }
