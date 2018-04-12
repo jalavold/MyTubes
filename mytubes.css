@@ -98,9 +98,9 @@ button[type=button] {
     transition: 0.5s;
 }
 #closemenu{
-    top: 8pt;
-    left: 4pt;
-    font-size: 28pt;
+    top: 10px;
+    left: 10px;
+    font-size: 32pt;
 }
 #catfrommessage{
     font-size: 26pt;
