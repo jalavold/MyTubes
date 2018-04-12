@@ -38,23 +38,28 @@ function loadddlCategories(){
     if (localStorage.getItem("videosbycat") != null) {
         var categories = JSON.parse(localStorage.getItem("videosbycat"));
         var ddlCategories = document.getElementById("ddlCategories");
-        ddlCategories.style.ic
+        var ddlCats = document.getElementById("ddlCats");
         while (ddlCategories.hasChildNodes()){
             ddlCategories.removeChild(ddlCategories.lastChild);
         }
-
+        while (ddlCats.hasChildNodes()){
+            ddlCats.removeChild(ddlCats.lastChild);
+        }
         for (catobj in categories.categories){   
             var newoption = document.createElement("option");
             newoption.value = categories.categories[catobj].catName;
             newoption.innerHTML = categories.categories[catobj].catName;
             ddlCategories.appendChild(newoption);
+            ddlCats.appendChild(newoption);
         }
     } else {
         var ddlCategories = document.getElementById("ddlCategories");
+        var ddlCats = document.getElementById("ddlCats");
         var newoption = document.createElement("option");
         newoption.value = "none";
         newoption.innerHTML = "NONE";
         ddlCategories.appendChild(newoption);
+        ddlCats.appendChild(newoption);
         var catformmessage = document.getElementById("catformmessage");
         catformmessage.textContent = "No categories defined. Please provide a category name and depress the \"New Category\" button.";
         catformmessage.style.color = "red";
@@ -136,4 +141,9 @@ function savevideotocat(){
         }
     }
     loadddlCategories();
+}
+
+function showcatvideos(){
+    var ddlcats = document.getElementById("ddlCats");
+
 }
