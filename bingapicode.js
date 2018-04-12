@@ -110,8 +110,6 @@ function handleOnLoad() {
         btn.setAttribute("onclick", onclickstring);
         iframe.src = jsobj.value[video].contentUrl.replace("watch?v=","embed/");
         iframe.frameBorder = 0;
-        iframe.height = "100%";
-        iframe.width = "90%";
         iframe.setAttribute("allow","autoplay");
         iframe.setAttribute("allowFullScreen","");
         iframemdiv.appendChild(iframe);
