@@ -103,7 +103,6 @@ function handleOnLoad() {
         iframemdiv.style.display = "inline-block";
         iframebuttondiv.style.display = "inline-block";
         iframe.style.display = "inline-block";
-        btn.setAttribute("class", "iframeclass");
         btn.style.display = "inline-block";
         btn.style.width = "100%";
         btn.style.height = "480px";
