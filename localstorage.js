@@ -123,13 +123,13 @@ function savevideotocat(){
     var categories = JSON.parse(localStorage.getItem("videosbycat"));
     var youtubetitle = document.getElementById("youtubetitle");
     var urllink = document.getElementById("urllink");
-    var usersubtitle = document.getElementById("youtubetitle");
+    var usersubtitle = document.getElementById("usersubtitle");
     var ddlcat = document.getElementById("ddlCategories");
     for (catobj in categories.categories){
         var categoryName = categories.categories[catobj].catName;
         var videosArray = categories.categories[catobj].videosArray;
         if (categoryName === ddlcat.value){
-            var videoObj = {usertitle:usersubtitle.value, youtubetitle:youtubetitle.vale, link:urllink.value};
+            var videoObj = {usertitle:usersubtitle.value, youtubetitle:youtubetitle.value, link:urllink.value};
             videosArray.push(videoObj);
             document.getElementById("addvideomessage").textContent = "Video added category successfully!"
         }
