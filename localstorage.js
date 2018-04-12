@@ -159,7 +159,7 @@ function showcatvideos(){
                     iframe.src = videosArray[video].link;
                     iframe.frameBorder = 0;
                     iframe.height = "480px";
-                    iframe.width = "100%";
+                    iframe.width = "80%";
                     iframe.style.display = "inline-block";
                     iframe.style.margin = "auto";
                     iframe.setAttribute("allow","autoplay");
