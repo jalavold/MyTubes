@@ -117,7 +117,7 @@ function handleOnLoad() {
         iframemdiv.appendChild(iframe);
         iframebuttondiv.appendChild(btn);
         iframemaindiv.appendChild(iframemdiv);
-        iframemaindiv.appendChild(iframebuttondiv)
+        iframemaindiv.appendChild(iframebuttondiv);
         document.getElementById("videos").appendChild(iframemaindiv);
         // document.getElementById("videos").appendChild(btn);
         document.getElementById("videos").appendChild(brelem);
