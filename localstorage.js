@@ -146,6 +146,8 @@ function showcatvideos(){
                 for (video in videosArray){
                     var brelem = document.createElement("br");
                     var iframe = document.createElement("iframe");
+                    var span= document.createElement("span");
+                    span.textContent = videosArray[video].usersubtitle;
                     iframe.src = videosArray[video].link;
                     iframe.frameBorder = 0;
                     iframe.height = "480px";
@@ -154,6 +156,7 @@ function showcatvideos(){
                     iframe.style.margin = "auto";
                     iframe.setAttribute("allow","autoplay");
                     iframe.setAttribute("allowFullScreen","");
+                    document.getElementById("catvideos").appendChild(span);
                     document.getElementById("catvideos").appendChild(iframe);
                     document.getElementById("catvideos").appendChild(brelem);
                 }
