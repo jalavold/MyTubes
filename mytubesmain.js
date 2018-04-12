@@ -38,6 +38,10 @@ function resetelements(){
     while (videos.hasChildNodes()){
         videos.removeChild(videos.lastChild);
     }
+    var ddlCategories = document.getElementById("ddlCategories");
+    var ddlCats = document.getElementById("ddlCats");
+    ddlCategories.value = "Select Category";
+    ddlCats.value = "Select Category"
 }
 
 function mainview(){

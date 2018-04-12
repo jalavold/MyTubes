@@ -14,6 +14,13 @@ function loadddlCategories(){
         pickopt.innerHTML  = "Select Category";
         pickopt.selected = true;
         ddlCats.appendChild(pickopt);
+
+        var pickopt2 = document.createElement("option");
+        pickopt2.value = "Select Category";
+        pickopt2.innerHTML  = "Select Category";
+        pickopt2.selected = true;
+        ddlCats.appendChild(pickopt2);
+
         for (catobj in categories.categories){   
             var newoption = document.createElement("option");
             newoption.value = categories.categories[catobj].catName;
@@ -24,6 +31,7 @@ function loadddlCategories(){
             ddlCategories.appendChild(newoption);
             ddlCats.appendChild(newoption2);
         }
+        
     } else {
         var ddlCategories = document.getElementById("ddlCategories");
         var ddlCats = document.getElementById("ddlCats");
