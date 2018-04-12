@@ -31,7 +31,7 @@ function loadddlCategories(){
             ddlCategories.appendChild(newoption);
             ddlCats.appendChild(newoption2);
         }
-        
+
     } else {
         var ddlCategories = document.getElementById("ddlCategories");
         var ddlCats = document.getElementById("ddlCats");
@@ -148,8 +148,10 @@ function showcatvideos(){
                     var iframe = document.createElement("iframe");
                     iframe.src = videosArray[video].link;
                     iframe.frameBorder = 0;
-                    iframe.height = "360px";
-                    iframe.width = "640px";
+                    iframe.height = "480px";
+                    iframe.width = "85%";
+                    iframe.style.display = "inline-block";
+                    iframe.style.margin = "auto";
                     iframe.setAttribute("allow","autoplay");
                     iframe.setAttribute("allowFullScreen","");
                     document.getElementById("catvideos").appendChild(iframe);
