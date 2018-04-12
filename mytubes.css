@@ -34,7 +34,7 @@ input, button, select, option, textarea {
     height: 100%;
 }
 
-select, option {
+select {
     -webkit-appearance: none; -moz-appearance: none;
     display: block;
     margin: 5px auto;
