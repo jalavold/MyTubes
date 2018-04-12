@@ -150,7 +150,13 @@ function showcatvideos(){
                     var span= document.createElement("span");
                     var tooltipdiv = document.createElement("div");
                     tooltipdiv.setAttribute("class", "tooltip");
-                    span.setAttribute("class", "tooltiptext")
+                    span.setAttribute("class", "tooltiptext");
+                    span.ontouchstart= function() {
+                        span.className = ".tooltipontouch";
+                    };
+                    span.ontouchstart= function() {
+                        span.className = ".tooltiptext";
+                    };
                     tooltipdiv.textContent = videosArray[video].usertitle + " - Video Details";
                     span.innerHTML = "Title: " + videosArray[video].youtubetitle + " <br>";
                     span.innerHTML += "Subtitle: " + videosArray[video].usertitle + " <br>";
