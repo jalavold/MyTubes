@@ -13,7 +13,7 @@ function loadddlCategories(){
         pickopt.value = "Select Category";
         pickopt.innerHTML  = "Select Category";
         pickopt.selected = true;
-        ddlCats.appendChild(pickopt);
+        ddlCategories.appendChild(pickopt);
 
         var pickopt2 = document.createElement("option");
         pickopt2.value = "Select Category";
