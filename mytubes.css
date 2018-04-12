@@ -32,6 +32,7 @@ body {
 
 input, button, select, option, textarea {
     height: 100%;
+    font-size: 32px;
 }
 
 select {
