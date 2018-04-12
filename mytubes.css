@@ -27,7 +27,7 @@
 
 body {
     margin: 0;
-    font-size: 32px;
+    font-size: 1em;
 }
 
 input, button, select, option, textarea {
