@@ -121,7 +121,8 @@ button[type=button] {
 }
 
 .tooltip {
-    width: 600px;
+    width: 100%;
+    margin: auto;
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
@@ -138,8 +139,8 @@ button[type=button] {
     position: absolute;
     z-index: 1;
     bottom: 100%;
-    left: 50%;
-    margin-left: -60px;
+    left:0;
+    margin-left: auto;
     
     /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
     opacity: 0;
