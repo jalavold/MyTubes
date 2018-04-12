@@ -51,13 +51,17 @@ function mainview(){
 }
 
 function searchyoutubeview(){
+    searchyoutube();
+    resetelements();
+    hidemenu();
+}
+
+function searchyoutube(){
     showhidediv(document.getElementById("maindiv"),true);
     showhidediv(document.getElementById("querydiv"),false);
     showhidediv(document.getElementById("catform"),true);
     showhidediv(document.getElementById("addvideoform"),true);
     showhidediv(document.getElementById("videosbycategory"),true);
-    resetelements();
-    hidemenu();
 }
 
 function videosbycategoryview(){
