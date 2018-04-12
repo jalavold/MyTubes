@@ -129,7 +129,7 @@ function savevideotocat(){
         var categoryName = categories.categories[catobj].catName;
         var videosArray = categories.categories[catobj].videosArray;
         if (categoryName === ddlcat.value){
-            var videoObj = {usertitle:usersubtitle.value, youtubetitle:youtubetitle.value, link:urllink.value};
+            var videoObj = {usertitle:usersubtitle.value, youtubetitle:youtubetitle.innerText, link:urllink.innerText};
             videosArray.push(videoObj);
             localStorage.setItem("videosbycat",JSON.stringify(categories));
             document.getElementById("addvideomessage").textContent = "Video added category successfully!"
