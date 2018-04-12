@@ -145,5 +145,25 @@ function savevideotocat(){
 
 function showcatvideos(){
     var ddlcats = document.getElementById("ddlCats");
+    var categories = JSON.parse(localStorage.getItem("videosbycat"));
+    for (catobj in categories.categories){
+        var categoryName = categories.categories[catobj].catName;
+        var videosArray = categories.categories[catobj].videosArray;
+        if (categoryName === ddlcats.value){
+            for (video in videosArray){
+                var brelem = document.createElement("br");
+                var iframe = document.createElement("iframe");
 
+                iframe.src = videoArray.value[video].contentUrl.replace("watch?v=","embed/");
+                iframe.frameBorder = 0;
+                iframe.height = "360px";
+                iframe.width = "640px";
+                iframe.setAttribute("allow","autoplay");
+                iframe.setAttribute("allowFullScreen","");
+                document.getElementById("videos").appendChild(iframe);
+                document.getElementById("videos").appendChild(btn);
+                document.getElementById("videos").appendChild(brelem);
+            }
+        }
+    }
 }
