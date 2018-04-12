@@ -94,6 +94,7 @@ function handleOnLoad() {
         var iframe = document.createElement("iframe");
         var btn = document.createElement("button");
         iframemaindiv.style.width = "100%";
+        iframemaindiv.style.width = "480px";           
         iframemdiv.style.width = "90%";
         iframebuttondiv.style.width = "10%";
         iframemaindiv.style.display = "inline-block";
@@ -110,7 +111,7 @@ function handleOnLoad() {
         btn.setAttribute("onclick", onclickstring);
         iframe.src = jsobj.value[video].contentUrl.replace("watch?v=","embed/");
         iframe.frameBorder = 0;
-        iframe.height = "480px";
+        iframe.height = "100%";
         iframe.width = "90%";
         iframe.setAttribute("allow","autoplay");
         iframe.setAttribute("allowFullScreen","");
