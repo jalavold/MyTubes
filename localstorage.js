@@ -45,6 +45,11 @@ function loadddlCategories(){
         while (ddlCats.hasChildNodes()){
             ddlCats.removeChild(ddlCats.lastChild);
         }
+        var pickopt = document.createElement("option");
+        pickopt.value = "Select Category";
+        pickopt.innerHTML  = "Select Category";
+        pickopt.selected = true;
+        ddlCats.appendChild(pickopt);
         for (catobj in categories.categories){   
             var newoption = document.createElement("option");
             newoption.value = categories.categories[catobj].catName;
@@ -144,6 +149,7 @@ function savevideotocat(){
             videosArray.push(videoObj);
             localStorage.setItem("videosbycat",JSON.stringify(categories));
             document.getElementById("addvideomessage").textContent = "Video added category successfully!"
+            document.getElementById("addvideomessage").style.color = "green";
         }
     }
     loadddlCategories();
@@ -151,22 +157,27 @@ function savevideotocat(){
 
 function showcatvideos(){
     var ddlcats = document.getElementById("ddlCats");
-    var categories = JSON.parse(localStorage.getItem("videosbycat"));
-    for (catobj in categories.categories){
-        var categoryName = categories.categories[catobj].catName;
-        var videosArray = categories.categories[catobj].videosArray;
-        if (categoryName === ddlcats.value){
-            for (video in videosArray){
-                var brelem = document.createElement("br");
-                var iframe = document.createElement("iframe");
-                iframe.src = videosArray[video].link;
-                iframe.frameBorder = 0;
-                iframe.height = "360px";
-                iframe.width = "640px";
-                iframe.setAttribute("allow","autoplay");
-                iframe.setAttribute("allowFullScreen","");
-                document.getElementById("catvideos").appendChild(iframe);
-                document.getElementById("catvideos").appendChild(brelem);
+    if(ddlcats.value === "Select Category"){
+        document.getElementById("videosbycategorymessage").textContent = "Invalid Selection. Please Select a valid Category";
+        document.getElementById("videosbycategorymessage").style.color = "red";
+    }else{
+        var categories = JSON.parse(localStorage.getItem("videosbycat"));
+        for (catobj in categories.categories){
+            var categoryName = categories.categories[catobj].catName;
+            var videosArray = categories.categories[catobj].videosArray;
+            if (categoryName === ddlcats.value){
+                for (video in videosArray){
+                    var brelem = document.createElement("br");
+                    var iframe = document.createElement("iframe");
+                    iframe.src = videosArray[video].link;
+                    iframe.frameBorder = 0;
+                    iframe.height = "360px";
+                    iframe.width = "640px";
+                    iframe.setAttribute("allow","autoplay");
+                    iframe.setAttribute("allowFullScreen","");
+                    document.getElementById("catvideos").appendChild(iframe);
+                    document.getElementById("catvideos").appendChild(brelem);
+                }
             }
         }
     }
