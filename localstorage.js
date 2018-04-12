@@ -131,4 +131,6 @@ function savevideotocat(){
             document.getElementById("addvideomessage").textContent = "Video added category successfully!"
         }
     }
+    localStorage.setItem("videosbycat",JSON.stringify(categories));
+    loadddlCategories();
 }
