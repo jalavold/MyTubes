@@ -153,7 +153,7 @@ function showcatvideos(){
             for (video in videosArray){
                 var brelem = document.createElement("br");
                 var iframe = document.createElement("iframe");
-                iframe.src = videoArray[video].link;
+                iframe.src = videosArray[video].link;
                 iframe.frameBorder = 0;
                 iframe.height = "360px";
                 iframe.width = "640px";
