@@ -94,6 +94,7 @@ function handleOnLoad() {
         var iframe = document.createElement("iframe");
         var btn = document.createElement("button");
         btn.setAttribute("class", "iframeclass");
+        btn.style.width = 20%;
         btn.type = "button";
         btn.innerHTML="Save";
         var onclickstring="addvideoform('" + jsobj.value[video].name + "', '" + jsobj.value[video].contentUrl.replace("watch?v=","embed/") + "');";
