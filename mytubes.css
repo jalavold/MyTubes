@@ -105,7 +105,10 @@ button[type=button] {
 #catfrommessage{
     font-size: 26pt;
 }
-
+.iframeclass {
+    width: 20%;
+    height: 100%;
+}
 iframe {
     display: inline-block;
 }
