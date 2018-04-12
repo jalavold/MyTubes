@@ -129,9 +129,11 @@ button[type=button] {
     border-bottom: 1px dotted black;
 }
 
+.tooltiptext { 
+    width: 100%;
+}
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 80%;
     background-color: black;
     color: #fff;
     text-align: left;
