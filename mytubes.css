@@ -131,7 +131,7 @@ button[type=button] {
     width: 100%;
     background-color: black;
     color: #fff;
-    text-align: center;
+    text-align: left;
     border-radius: 6px;
     padding: 5px 0;
     position: absolute;
