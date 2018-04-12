@@ -162,6 +162,10 @@ function showcatvideos(){
         document.getElementById("videosbycategorymessage").style.color = "red";
     }else{
         var categories = JSON.parse(localStorage.getItem("videosbycat"));
+        var catvideos = document.getElementById("catvideos");
+        while (catvideos.hasChildNodes()){
+            catvideos.removeChild(catvideos.lastChild);
+        }
         for (catobj in categories.categories){
             var categoryName = categories.categories[catobj].catName;
             var videosArray = categories.categories[catobj].videosArray;
