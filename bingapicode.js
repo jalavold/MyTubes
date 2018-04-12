@@ -93,7 +93,12 @@ function handleOnLoad() {
         var iframebuttondiv = document.createElement("div");
         var iframe = document.createElement("iframe");
         var btn = document.createElement("button");
+        iframemaindiv.style.display = "inline-block";
+        iframemdiv.style.display = "inline-block";
+        iframebuttondiv.style.display = "inline-block";
+        iframe.style.display = "inline-block";
         btn.setAttribute("class", "iframeclass");
+        btn.style.display = "inline-block";
         btn.style.width = "20%";
         btn.type = "button";
         btn.innerHTML="Save";
