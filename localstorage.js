@@ -160,7 +160,7 @@ function showcatvideos(){
                     iframe.frameBorder = 0;
                     iframe.height = "480px";
                     iframe.width = "80%";
-                    iframe.style.display = "inline-block";
+                    iframe.style.display = "block";
                     iframe.style.margin = "auto";
                     iframe.setAttribute("allow","autoplay");
                     iframe.setAttribute("allowFullScreen","");
