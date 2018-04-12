@@ -105,3 +105,8 @@ button[type=button] {
 #catfrommessage{
     font-size: 26pt;
 }
+
+#videos{
+    margin: auto;
+    width: 80%;
+}
