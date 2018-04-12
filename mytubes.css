@@ -100,6 +100,7 @@ button[type=button] {
 #closemenu{
     top: 8pt;
     left: 4pt;
+    font-size: 28pt;
 }
 #catfrommessage{
     font-size: 26pt;
