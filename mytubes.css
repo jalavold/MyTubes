@@ -114,3 +114,8 @@ button[type=button] {
     margin: auto;
     width: 80%;
 }
+
+#videosbycategorymessage{
+    width: 100%;
+    background-color: lightblue;
+}

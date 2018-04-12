@@ -148,7 +148,14 @@ function showcatvideos(){
                     var brelem2 = document.createElement("br");
                     var iframe = document.createElement("iframe");
                     var span= document.createElement("span");
-                    span.textContent = videosArray[video].usertitle;
+                    var tooltipdiv = document.createElement("div");
+                    tooltipdiv.setAttribute("class", "tooltip");
+                    span.setAttribute("class", "tooltiptext")
+                    tooltipdiv.textContent = videosArray[video].usertitle + " - Video Details";
+                    span.textContent = "Title: " + videosArray[video].youtubetitle + " <br>";
+                    span.textContent += "Subtitle: " + videosArray[video].usertitle + " <br>";
+                    span.textContent += "YouTube Link: " + videosArray[video].link;
+                    tooltipdiv.appendChild(span);
                     iframe.src = videosArray[video].link;
                     iframe.frameBorder = 0;
                     iframe.height = "480px";
@@ -157,9 +164,8 @@ function showcatvideos(){
                     iframe.style.margin = "auto";
                     iframe.setAttribute("allow","autoplay");
                     iframe.setAttribute("allowFullScreen","");
-                    
+                    document.getElementById("catvideos").appendChild(tooltipdiv);
                     document.getElementById("catvideos").appendChild(iframe);
-                    document.getElementById("catvideos").appendChild(span);
                     document.getElementById("catvideos").appendChild(brelem);
                     document.getElementById("catvideos").appendChild(brelem2);
                 }
