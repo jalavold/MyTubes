@@ -89,18 +89,19 @@ function handleOnLoad() {
     for (video in jsobj.value){
         var brelem = document.createElement("br");
         var iframemaindiv = document.createElement("div");
-        var iframemdiv = document.createElement("div");
+        var iframediv = document.createElement("div");
         var iframebuttondiv = document.createElement("div");
         var iframe = document.createElement("iframe");
         var btn = document.createElement("button");
         iframemaindiv.style.width = "100%";
         iframemaindiv.style.height = "480px";           
-        iframemdiv.style.width = "90%";
-        iframemdiv.style.height = "480px";
+        iframediv.style.width = "90%";
+        iframediv.style.height = "480px";
+        iframediv.style.cssFloat = "left";
         iframebuttondiv.style.width = "10%";
         iframebuttondiv.style.height = "480px";
         iframemaindiv.style.display = "inline-block";
-        iframemdiv.style.display = "inline-block";
+        iframediv.style.display = "inline-block";
         iframebuttondiv.style.display = "inline-block";
         iframe.style.display = "inline-block";
         btn.style.display = "inline-block";
