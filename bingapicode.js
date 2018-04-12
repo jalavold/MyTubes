@@ -94,7 +94,7 @@ function handleOnLoad() {
         var iframe = document.createElement("iframe");
         var btn = document.createElement("button");
         iframemaindiv.style.width = "100%";
-        iframemaindiv.style.width = "480px";           
+        iframemaindiv.style.height = "480px";           
         iframemdiv.style.width = "90%";
         iframebuttondiv.style.width = "10%";
         iframemaindiv.style.display = "inline-block";
