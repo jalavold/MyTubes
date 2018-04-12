@@ -74,6 +74,9 @@ function savenewcat(){
                 var catobj={catName:newcat.value,videosArray:[]};
                 var newcategory = {categories:[catobj]};
                 localStorage.setItem("videosbycat", JSON.stringify(newcategory));
+                loadddlCategories();
+                catformmessage.textContent = "New category " + newcat.value + " created successfully!"
+                catformmessage.style.color = "green";
             } else {
                 
                 var categories = JSON.parse(localStorage.getItem("videosbycat"));
