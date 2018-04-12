@@ -147,7 +147,7 @@ function showcatvideos(){
                     var brelem = document.createElement("br");
                     var iframe = document.createElement("iframe");
                     var span= document.createElement("span");
-                    span.textContent = videosArray[video].usersubtitle;
+                    span.textContent = videosArray[video].usertitle;
                     iframe.src = videosArray[video].link;
                     iframe.frameBorder = 0;
                     iframe.height = "480px";
