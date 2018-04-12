@@ -152,9 +152,9 @@ function showcatvideos(){
                     tooltipdiv.setAttribute("class", "tooltip");
                     span.setAttribute("class", "tooltiptext")
                     tooltipdiv.textContent = videosArray[video].usertitle + " - Video Details";
-                    span.textContent = "Title: " + videosArray[video].youtubetitle + " <br>";
-                    span.textContent += "Subtitle: " + videosArray[video].usertitle + " <br>";
-                    span.textContent += "YouTube Link: " + videosArray[video].link;
+                    span.innerHTML = "Title: " + videosArray[video].youtubetitle + " <br>";
+                    span.innerHTML += "Subtitle: " + videosArray[video].usertitle + " <br>";
+                    span.innerHTML += "YouTube Link: " + videosArray[video].link;
                     tooltipdiv.appendChild(span);
                     iframe.src = videosArray[video].link;
                     iframe.frameBorder = 0;
