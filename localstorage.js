@@ -145,6 +145,7 @@ function showcatvideos(){
             if (categoryName === ddlcats.value){
                 for (video in videosArray){
                     var brelem = document.createElement("br");
+                    var brelem2 = document.createElement("br");
                     var iframe = document.createElement("iframe");
                     var span= document.createElement("span");
                     span.textContent = videosArray[video].usertitle;
@@ -156,9 +157,11 @@ function showcatvideos(){
                     iframe.style.margin = "auto";
                     iframe.setAttribute("allow","autoplay");
                     iframe.setAttribute("allowFullScreen","");
-                    document.getElementById("catvideos").appendChild(span);
+                    
                     document.getElementById("catvideos").appendChild(iframe);
+                    document.getElementById("catvideos").appendChild(span);
                     document.getElementById("catvideos").appendChild(brelem);
+                    document.getElementById("catvideos").appendChild(brelem2);
                 }
             }
         }
