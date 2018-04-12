@@ -160,7 +160,6 @@ function showcatvideos(){
                 iframe.setAttribute("allow","autoplay");
                 iframe.setAttribute("allowFullScreen","");
                 document.getElementById("catvideos").appendChild(iframe);
-                document.getElementById("catvideos").appendChild(btn);
                 document.getElementById("catvideos").appendChild(brelem);
             }
         }
