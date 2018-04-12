@@ -153,16 +153,15 @@ function showcatvideos(){
             for (video in videosArray){
                 var brelem = document.createElement("br");
                 var iframe = document.createElement("iframe");
-
-                iframe.src = videoArray.value[video].contentUrl.replace("watch?v=","embed/");
+                iframe.src = videoArray[video].link;
                 iframe.frameBorder = 0;
                 iframe.height = "360px";
                 iframe.width = "640px";
                 iframe.setAttribute("allow","autoplay");
                 iframe.setAttribute("allowFullScreen","");
-                document.getElementById("videos").appendChild(iframe);
-                document.getElementById("videos").appendChild(btn);
-                document.getElementById("videos").appendChild(brelem);
+                document.getElementById("catvideos").appendChild(iframe);
+                document.getElementById("catvideos").appendChild(btn);
+                document.getElementById("catvideos").appendChild(brelem);
             }
         }
     }
