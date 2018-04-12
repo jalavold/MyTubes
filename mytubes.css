@@ -27,7 +27,7 @@
 
 body {
     margin: 0;
-    font-size: 2em;
+    font-size: 32px;
 }
 
 input, button, select, option, textarea {
@@ -35,7 +35,7 @@ input, button, select, option, textarea {
     font-size: 32px;
 }
 
-select {
+select, option{
     -webkit-appearance: none; -moz-appearance: none;
     display: block;
     margin: 5px auto;
