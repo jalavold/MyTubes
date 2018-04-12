@@ -96,7 +96,9 @@ function handleOnLoad() {
         iframemaindiv.style.width = "100%";
         iframemaindiv.style.height = "480px";           
         iframemdiv.style.width = "90%";
+        iframemdiv.style.height = "480px";
         iframebuttondiv.style.width = "10%";
+        iframebuttondiv.style.height = "480px";
         iframemaindiv.style.display = "inline-block";
         iframemdiv.style.display = "inline-block";
         iframebuttondiv.style.display = "inline-block";
@@ -104,14 +106,14 @@ function handleOnLoad() {
         btn.setAttribute("class", "iframeclass");
         btn.style.display = "inline-block";
         btn.style.width = "100%";
-        btn.style.height = "100%";
+        btn.style.height = "480px";
         btn.type = "button";
         btn.innerHTML="Save";
         var onclickstring="addvideoform('" + jsobj.value[video].name + "', '" + jsobj.value[video].contentUrl.replace("watch?v=","embed/") + "');";
         btn.setAttribute("onclick", onclickstring);
         iframe.src = jsobj.value[video].contentUrl.replace("watch?v=","embed/");
         iframe.frameBorder = 0;
-        iframe.height = "100%";
+        iframe.height = "480px";
         iframe.width = "90%";
         iframe.setAttribute("allow","autoplay");
         iframe.setAttribute("allowFullScreen","");
