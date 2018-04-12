@@ -93,7 +93,7 @@ function handleOnLoad() {
         var iframebuttondiv = document.createElement("div");
         var iframe = document.createElement("iframe");
         var btn = document.createElement("button");
-        btn.className = "iframeclass";
+        btn.setAttribute("class", "iframeclass");
         btn.type = "button";
         btn.innerHTML="Save";
         var onclickstring="addvideoform('" + jsobj.value[video].name + "', '" + jsobj.value[video].contentUrl.replace("watch?v=","embed/") + "');";
