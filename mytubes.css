@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-size: 36px;
+}
+
 .container {
     display: inline-block;
     cursor: pointer;
@@ -23,11 +28,6 @@
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
-}
-
-body {
-    margin: 0;
-    font-size: 32px;
 }
 
 input, button, select, option, textarea {
