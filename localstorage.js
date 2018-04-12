@@ -157,6 +157,7 @@ function savevideotocat(){
 
 function showcatvideos(){
     var ddlcats = document.getElementById("ddlCats");
+    document.getElementById("videosbycategorymessage").textContent = "";
     if(ddlcats.value === "Select Category"){
         document.getElementById("videosbycategorymessage").textContent = "Invalid Selection. Please Select a valid Category";
         document.getElementById("videosbycategorymessage").style.color = "red";
