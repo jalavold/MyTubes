@@ -98,6 +98,7 @@ function handleOnLoad() {
         iframebuttondiv.style.width = "10%";
         iframebuttondiv.style.height = "100%";
         iframe.style.width = "90%";
+        iframe.style.height = "100%";
         iframemaindiv.style.display = "inline-block";
         iframemdiv.style.display = "inline-block";
         iframebuttondiv.style.display = "inline-block";
@@ -105,6 +106,7 @@ function handleOnLoad() {
         btn.setAttribute("class", "iframeclass");
         btn.style.display = "inline-block";
         btn.style.width = "100%";
+        btn.style.height = "100%";
         btn.type = "button";
         btn.innerHTML="Save";
         var onclickstring="addvideoform('" + jsobj.value[video].name + "', '" + jsobj.value[video].contentUrl.replace("watch?v=","embed/") + "');";
