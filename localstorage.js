@@ -49,8 +49,11 @@ function loadddlCategories(){
             var newoption = document.createElement("option");
             newoption.value = categories.categories[catobj].catName;
             newoption.innerHTML = categories.categories[catobj].catName;
+            var newoption2 = document.createElement("option");
+            newoption2.value = categories.categories[catobj].catName;
+            newoption2.innerHTML = categories.categories[catobj].catName;
             ddlCategories.appendChild(newoption);
-            ddlCats.appendChild(newoption);
+            ddlCats.appendChild(newoption2);
         }
     } else {
         var ddlCategories = document.getElementById("ddlCategories");
@@ -58,8 +61,11 @@ function loadddlCategories(){
         var newoption = document.createElement("option");
         newoption.value = "none";
         newoption.innerHTML = "NONE";
+        var newoption2 = document.createElement("option");
+        newoption2.value = "none";
+        newoption2.innerHTML = "NONE";
         ddlCategories.appendChild(newoption);
-        ddlCats.appendChild(newoption);
+        ddlCats.appendChild(newoption2);
         var catformmessage = document.getElementById("catformmessage");
         catformmessage.textContent = "No categories defined. Please provide a category name and depress the \"New Category\" button.";
         catformmessage.style.color = "red";
