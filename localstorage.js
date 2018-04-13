@@ -97,11 +97,18 @@ function savenewcat(){
 
 function savevideotocat(){
     
+    var savemessage = document.getElementById("addvideomessage");
+    var ddlcat = document.getElementById("ddlCategories");
+    if (ddlcat.value === "Select Category"){
+        savemessage = "Category Not Selected!  Please select a category to save your video under."
+        savemessage.style.color = "red";
+    }
+
     var categories = JSON.parse(localStorage.getItem("videosbycat"));
     var youtubetitle = document.getElementById("youtubetitle");
     var urllink = document.getElementById("urllink");
     var usersubtitle = document.getElementById("usersubtitle");
-    var ddlcat = document.getElementById("ddlCategories");
+   
     for (catobj in categories.categories){
         var categoryName = categories.categories[catobj].catName;
         var videosArray = categories.categories[catobj].videosArray;
@@ -109,8 +116,8 @@ function savevideotocat(){
             var videoObj = {usertitle:usersubtitle.value, youtubetitle:youtubetitle.innerText, link:urllink.innerText};
             videosArray.push(videoObj);
             localStorage.setItem("videosbycat",JSON.stringify(categories));
-            document.getElementById("addvideomessage").textContent = "Video added category successfully!"
-            document.getElementById("addvideomessage").style.color = "green";
+            savemessage.textContent = "Video added category successfully!"
+            savemessage.style.color = "green";
         }
     }
     loadddlCategories();
