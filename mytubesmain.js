@@ -46,7 +46,7 @@ function resetelements(){
     var ddlCategories = document.getElementById("ddlCategories");
     var ddlCats = document.getElementById("ddlCats");
     document.getElementById("ddlCats").selectedIndex = 0;
-    document.getElementById("ddlCatgories").selectedIndex = 0;
+    document.getElementById("ddlCategories").selectedIndex = 0;
 }
 
 function mainview(){
