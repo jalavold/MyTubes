@@ -31,22 +31,28 @@ function loadddlCategories(){
         }
 
     } else {
-        var ddlCategories = document.getElementById("ddlCategories");
+
+            var catobj={catName:'Favorite',videosArray:[]};
+            var newcategory = {categories:[catobj]};
+            localStorage.setItem("videosbycat", JSON.stringify(newcategory));
+            loadddlCategories();
+
+/*         var ddlCategories = document.getElementById("ddlCategories");
         var ddlCats = document.getElementById("ddlCats");
         var newoption = document.createElement("option");
-        newoption.value = "none";
-        newoption.innerHTML = "NO CATEGORIES DEFINED";
+        newoption.value = "Favorites";
+        newoption.innerHTML = "Favorites";
         newoption.selected = true;
         newoption.setAttribute("selected","selected");
         var newoption2 = document.createElement("option");
-        newoption2.value = "none";
-        newoption2.innerHTML = "NO CATEGORIES DEFINED";
+        newoption2.value = "Favorites";
+        newoption2.innerHTML = "Favorites";
         newoption2.selected = true;
         ddlCategories.appendChild(newoption);
         ddlCats.appendChild(newoption2);
         var catformmessage = document.getElementById("catformmessage");
         catformmessage.textContent = "No categories defined. Please provide a category name and depress the \"New Category\" button.";
-        catformmessage.style.color = "red";
+        catformmessage.style.color = "red"; */
     }
 }
 
