@@ -35,13 +35,19 @@ function showhidediv(divref, truefalseval){
 function resetelements(){
     document.getElementById("newcat").value = "";
     document.getElementById("query").value = "";
+    var videos = document.getElementById("videos");
+    var catvideos = document.getElementById("catvideos");
     while (videos.hasChildNodes()){
         videos.removeChild(videos.lastChild);
+    }
+    while (catvideos.hasChildNodes()){
+        catvideos.removeChild(catvideos.lastChild);
     }
     var ddlCategories = document.getElementById("ddlCategories");
     var ddlCats = document.getElementById("ddlCats");
     ddlCategories.value = "Select Category";
-    ddlCats.value = "Select Category"
+    ddlCats.value = "Select Category";
+    document.getElementById("searchresults").hidden = true; 
 }
 
 function mainview(){
