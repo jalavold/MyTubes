@@ -80,7 +80,7 @@ function videosbycategoryview(){
         document.getElementById("videosbycategorymessage").textContent = "Please click on the button above to create categories you can save videos under.";
         document.getElementById("videosbycategorymessage").style.color = "red";
     }else{
-        document.getElementById("navtocatform").hidden = false;
+        document.getElementById("navtocatform").hidden = true;
         document.getElementById("videosbycategorymessage").textContent = "";
         document.getElementById("videosbycategorymessage").style.color = "green";
     };
