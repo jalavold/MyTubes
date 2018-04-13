@@ -161,7 +161,7 @@ button[type=button] {
     text-align: center;
 }
 .saveheadinglabel{
-    background-color: lightgrey;
+    background-color: lightsteelblue;
     -webkit-appearance: none; -moz-appearance: none;
     display: block;
     margin: auto;
@@ -172,6 +172,7 @@ button[type=button] {
 
 .saveheadingtextlabel{
     -webkit-appearance: none; -moz-appearance: none;
+    background-color: lightblue;
     display: block;
     margin: auto;
     width: 99%; height: 50px;
