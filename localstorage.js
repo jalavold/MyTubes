@@ -100,7 +100,7 @@ function savevideotocat(){
     var savemessage = document.getElementById("addvideomessage");
     var ddlcat = document.getElementById("ddlCategories");
     if (ddlcat.value === "Select Category"){
-        savemessage = "Category Not Selected!  Please select a category to save your video under."
+        savemessage.textContent = "Category Not Selected!  Please select a category to save your video under."
         savemessage.style.color = "red";
     }
 
