@@ -47,6 +47,7 @@ function resetelements(){
     var ddlCats = document.getElementById("ddlCats");
     document.getElementById("ddlCats").selectedIndex = 0;
     document.getElementById("ddlCategories").selectedIndex = 0;
+    document.getElementById("searchresults").style.visibility = "hidden";  
 }
 
 function mainview(){
@@ -74,7 +75,7 @@ function searchyoutube(){
 }
 
 function videosbycategoryview(){
-    var ddlCats = document.getElementById("ddlCats");
+/*     var ddlCats = document.getElementById("ddlCats");
     if (ddlCats.innerText === "NO CATEGORIES DEFINED"){
         document.getElementById("navtocatform").style.visibility = "visible";
         document.getElementById("videosbycategorymessage").textContent = "Please click on the button above to create categories you can save videos under.";
@@ -83,7 +84,7 @@ function videosbycategoryview(){
         document.getElementById("navtocatform").style.visibility = "hidden";
         document.getElementById("videosbycategorymessage").textContent = "";
         document.getElementById("videosbycategorymessage").style.color = "green";
-    };
+    }; */
     showhidediv(document.getElementById("maindiv"),true);
     showhidediv(document.getElementById("querydiv"),true);
     showhidediv(document.getElementById("catform"),true);
