@@ -75,7 +75,7 @@ function searchyoutube(){
 
 function videosbycategoryview(){
     var ddlCats = document.getElementById("ddlCats");
-    if (ddlCats.value === "NO CATEGORIES DEFINED"){
+    if (ddlCats.innerText === "NO CATEGORIES DEFINED"){
         document.getElementById("navtocatform").style.visibility = "visible";
         document.getElementById("videosbycategorymessage").textContent = "Please click on the button above to create categories you can save videos under.";
         document.getElementById("videosbycategorymessage").style.color = "red";
