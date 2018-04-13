@@ -45,9 +45,8 @@ function resetelements(){
     }
     var ddlCategories = document.getElementById("ddlCategories");
     var ddlCats = document.getElementById("ddlCats");
-    ddlCategories.value = "Select Category";
-    ddlCats.value = "Select Category";
-    document.getElementById("searchresults").style.visibility = "hidden"; 
+    document.getElementById("ddlCats").selectedIndex = 0;
+    document.getElementById("ddlCatgories").selectedIndex = 0;
 }
 
 function mainview(){
@@ -81,7 +80,6 @@ function videosbycategoryview(){
     showhidediv(document.getElementById("addvideoform"),true);
     showhidediv(document.getElementById("videosbycategory"),false);
     resetelements();
-    document.getElementById("ddlCats").selectedIndex = 0;
     hidemenu();
 }
 

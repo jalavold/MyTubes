@@ -12,13 +12,11 @@ function loadddlCategories(){
         var pickopt = document.createElement("option");
         pickopt.value = "Select Category";
         pickopt.innerHTML  = "Select Category";
-        pickopt.selected = true;
         ddlCategories.appendChild(pickopt);
 
         var pickopt2 = document.createElement("option");
         pickopt2.value = "Select Category";
         pickopt2.innerHTML  = "Select Category";
-        pickopt2.selected = true;
         ddlCats.appendChild(pickopt2);
 
         for (catobj in categories.categories){   
@@ -46,8 +44,6 @@ function loadddlCategories(){
         newoption2.selected = true;
         ddlCategories.appendChild(newoption);
         ddlCats.appendChild(newoption2);s
-        document.getElementById("ddlCats").selectedIndex = 0;
-        document.getElementById("ddlCatgories").selectedIndex = 0;
         var catformmessage = document.getElementById("catformmessage");
         catformmessage.textContent = "No categories defined. Please provide a category name and depress the \"New Category\" button.";
         catformmessage.style.color = "red";
