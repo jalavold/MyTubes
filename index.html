@@ -21,47 +21,52 @@
         </div><span id="titlespan">MyTubes Mobile</span>
         <div id="space"></div>
     </div>
-    <div id="menudiv">
-        <span id="closemenu" onclick="hidemenu();">X</span><br>
-        <button type="button" onclick="mainview()">Main</button>
-        <button type="button" onclick="searchyoutubeview()">Search YouTube</button>
-        <button type="button" onclick="videosbycategoryview()">Videos by Category</button>
-        <button type="button" onclick="catformview()">Add Categories</button>
-    </div>
-    <br>
-    <div id="maindiv">
-        <p>This view will have a description of the sites purpose and functionality</p>
-    </div>
-    <div id="querydiv">
-        <label>YouTube Video Search Page</label>
-        <input id="query" type="text" placeholder="Enter Search Keywords / Phrase">
-        <button type="button" onclick="searchBing()">Search</button>
-        <p id="searchresults">Search Results</p>
-        <div id="videos"></div>
-    </div>
-    <div id="catform">
-        <input id="newcat" type="text" placeholder="Type new category name here...">
-        <button type="button" onclick="savenewcat()">New Category</button>
-        <span id="displaycats"></span>
-        <span id="catformmessage"></span>
-    </div>
-    <div id="addvideoform"> 
-        <label id="lbltitle" class="saveheadinglabel">YouTube Video Title:</label>
-        <label id="youtubetitle" class"saveheadingtextlabel"></label>
-        <label id="lbllink" class="saveheadinglabel">YouTube Video Link:</label>
-        <label id="urllink" class"saveheadingtextlabel"></label>
-        <br><br>
-        <select id="ddlCategories"></select><br>
-        <input id="usersubtitle" type="text" placeholder="Enter your own subtitle if desired.">
-        <button type="button" id="savevideo" onclick="savevideotocat()">Save Video</button>
-        <button type="button" id="closeaddvideoform" onclick="searchyoutube()">Cancel</button>
-        <span id="addvideomessage"></span>
-    </div>
-    <div id="videosbycategory">
-        <select id="ddlCats" onchange="showcatvideos()"></select><br>
-        <span id="videosbycategorymessage"></span>
-        <div id="catvideos"></div>
+    <div>
+
+        <div id="menudiv">
+                <span id="closemenu" onclick="hidemenu();">X</span><br>
+                <button type="button" onclick="mainview()">Main</button>
+                <button type="button" onclick="searchyoutubeview()">Search YouTube</button>
+                <button type="button" onclick="videosbycategoryview()">Videos by Category</button>
+                <button type="button" onclick="catformview()">Add Categories</button>
+            </div>
+            <br>
+            <div id="maindiv">
+                <p>This view will have a description of the sites purpose and functionality</p>
+            </div>
+            <div id="querydiv">
+                <label>YouTube Video Search Page</label>
+                <input id="query" type="text" placeholder="Enter Search Keywords / Phrase">
+                <button type="button" onclick="searchBing()">Search</button>
+                <p id="searchresults">Search Results</p>
+                <div id="videos"></div>
+            </div>
+            <div id="catform">
+                <input id="newcat" type="text" placeholder="Type new category name here...">
+                <button type="button" onclick="savenewcat()">New Category</button>
+                <span id="displaycats"></span>
+                <span id="catformmessage"></span>
+            </div>
+            <div id="addvideoform"> 
+                <label id="lbltitle" class="saveheadinglabel">YouTube Video Title:</label>
+                <label id="youtubetitle" class"saveheadingtextlabel"></label>
+                <label id="lbllink" class="saveheadinglabel">YouTube Video Link:</label>
+                <label id="urllink" class"saveheadingtextlabel"></label>
+                <br><br>
+                <select id="ddlCategories"></select><br>
+                <input id="usersubtitle" type="text" placeholder="Enter your own subtitle if desired.">
+                <button type="button" id="savevideo" onclick="savevideotocat()">Save Video</button>
+                <button type="button" id="closeaddvideoform" onclick="searchyoutube()">Cancel</button>
+                <span id="addvideomessage"></span>
+            </div>
+            <div id="videosbycategory">
+                <select id="ddlCats" onchange="showcatvideos()"></select><br>
+                <span id="videosbycategorymessage"></span>
+                <div id="catvideos"></div>
+                
+            </div>
         
     </div>
+
 </body>
 </html>
