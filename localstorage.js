@@ -43,7 +43,7 @@ function loadddlCategories(){
         newoption2.innerHTML = "NO CATEGORIES DEFINED";
         newoption2.selected = true;
         ddlCategories.appendChild(newoption);
-        ddlCats.appendChild(newoption2);s
+        ddlCats.appendChild(newoption2);
         var catformmessage = document.getElementById("catformmessage");
         catformmessage.textContent = "No categories defined. Please provide a category name and depress the \"New Category\" button.";
         catformmessage.style.color = "red";
