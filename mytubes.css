@@ -163,9 +163,20 @@ button[type=button] {
 saveheadinglabel{
     width: 100%;
     background-color: lightgrey;
+    -webkit-appearance: none; -moz-appearance: none;
+    display: block;
+    margin: auto;
+    width: 99%; height: 50px;
+    line-height: 50px; font-size: 30px;
     border: 1px solid #bbb;
 }
+
 saveheadingtextlabel{
     width: 100%;
+    -webkit-appearance: none; -moz-appearance: none;
+    display: block;
+    margin: auto;
+    width: 99%; height: 50px;
+    line-height: 50px; font-size: 30px;
     border: 1px solid #bbb;
 }
