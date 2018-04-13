@@ -81,6 +81,7 @@ function videosbycategoryview(){
     showhidediv(document.getElementById("addvideoform"),true);
     showhidediv(document.getElementById("videosbycategory"),false);
     resetelements();
+    document.getElementById("ddlCats").selectedIndex = 0;
     hidemenu();
 }
 

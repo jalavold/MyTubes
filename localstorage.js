@@ -45,7 +45,7 @@ function loadddlCategories(){
         newoption2.innerHTML = "NO CATEGORIES DEFINED";
         newoption2.selected = true;
         ddlCategories.appendChild(newoption);
-        ddlCats.appendChild(newoption2);
+        ddlCats.appendChild(newoption2);s
         document.getElementById("ddlCats").selectedIndex = 0;
         document.getElementById("ddlCatgories").selectedIndex = 0;
         var catformmessage = document.getElementById("catformmessage");
