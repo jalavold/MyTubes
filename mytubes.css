@@ -154,3 +154,9 @@ button[type=button] {
     visibility: visible;
     opacity: 1;
 }
+
+#searchresults {
+    width: 100%;
+    background-color: lightsteelblue;
+    text-align: center;
+}
