@@ -39,6 +39,7 @@ function loadddlCategories(){
         newoption.value = "none";
         newoption.innerHTML = "NO CATEGORIES DEFINED";
         newoption.selected = true;
+        newoption.setAttribute("selected","selected");
         var newoption2 = document.createElement("option");
         newoption2.value = "none";
         newoption2.innerHTML = "NO CATEGORIES DEFINED";
