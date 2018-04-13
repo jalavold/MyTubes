@@ -67,7 +67,7 @@ function searchBing() {
     while (videos.hasChildNodes()){
         videos.removeChild(videos.lastChild);
     }
-    document.getElementById("searchresults").hidden = false; 
+    document.getElementById("searchresults").style.visibility = true;  
     return bingWebSearch(query, bingSearchOptions(), key);
 }
 

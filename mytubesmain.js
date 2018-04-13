@@ -47,7 +47,7 @@ function resetelements(){
     var ddlCats = document.getElementById("ddlCats");
     ddlCategories.value = "Select Category";
     ddlCats.value = "Select Category";
-    document.getElementById("searchresults").hidden = true; 
+    document.getElementById("searchresults").style.visibility = false; 
 }
 
 function mainview(){
