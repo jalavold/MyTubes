@@ -86,19 +86,7 @@ function savenewcat(){
                 } else {
                     catformmessage.textContent  = "Sorry, there already is a category named " + newcat.value + ".";
                     catformmessage.style.color = "red";
-                }
-
-                /*             for (catobj in categories.categories){
-                    var categoryName = categories.categories[catobj].catName;
-                    var videosArray = categories.categories[catobj].videosArray;
-                    if (categoryName === "cat"){
-                        var videoObj = {usertitle:"Cats R Fun", youtubetitle:"you tube cat title", link:"https://embededlink"};
-                        videosArray.push(videoObj);
-                    }
-                } */
-
-
-                
+                }  
             }
         } else {
             alert("Sorry, your browser does not support web storage...");
@@ -152,6 +140,7 @@ function showcatvideos(){
                     tooltipdiv.setAttribute("class", "tooltip");
                     span.setAttribute("class", "tooltiptext");
                     tooltipdiv.setAttribute("ontouchstart","touch_start(this)");
+                    tooltipdiv.setAttribute("ontouchcancel","touch_end(this)");
                     tooltipdiv.textContent = videosArray[video].usertitle + " - Video Details";
                     span.innerHTML = "Title: " + videosArray[video].youtubetitle + " <br>";
                     span.innerHTML += "Subtitle: " + videosArray[video].usertitle + " <br>";
@@ -178,4 +167,9 @@ function showcatvideos(){
 function touch_start(e){
   e.preventDefault();
   e.target.onclick();
+}
+
+function touch_end(e){
+    e.preventDefault();
+    e.target.onclick();
 }
