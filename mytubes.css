@@ -43,13 +43,9 @@ select, option {
     line-height: 50px; font-size: 30px;
     border: 1px solid #bbb;
 }
-select > option {
-    -webkit-appearance: none; -moz-appearance: none;
-    display: block;
-    margin: 5px auto;
-    width: 99%; height: 50px;
-    line-height: 50px; font-size: 30px;
-    border: 1px solid #bbb;
+select#ddlCats > option {
+    font-size: 30px;
+
 }
 
 input[type=text], input[type=url], input[type=email], input[type=password], input[type=tel] {
