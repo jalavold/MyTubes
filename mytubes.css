@@ -160,3 +160,12 @@ button[type=button] {
     background-color: lightsteelblue;
     text-align: center;
 }
+saveheadinglabel{
+    width: 100%;
+    background-color: lightgrey;
+    border: 1px solid #bbb;
+}
+saveheadingtextlabel{
+    width: 100%;
+    border: 1px solid #bbb;
+}
