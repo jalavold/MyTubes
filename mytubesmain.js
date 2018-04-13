@@ -74,6 +74,18 @@ function searchyoutube(){
 }
 
 function videosbycategoryview(){
+    var ddlCats = document.getElementById("ddlCats")
+    if (ddlCats.value === "NO CATEGORIES DEFINED"){
+        document.getElementById("navtocatform").hidden = false;
+        document.getElementById("videosbycategorymessage").textContent = "Please click on the button above to create categories you can save videos under.";
+        document.getElementById("videosbycategorymessage").style.color = "red";
+    }else{
+        document.getElementById("navtocatform").hidden = false;
+        document.getElementById("videosbycategorymessage").textContent = "";
+        document.getElementById("videosbycategorymessage").style.color = "green";
+    }
+
+
     showhidediv(document.getElementById("maindiv"),true);
     showhidediv(document.getElementById("querydiv"),true);
     showhidediv(document.getElementById("catform"),true);
